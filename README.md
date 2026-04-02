@@ -1,5 +1,9 @@
 # gRPC Bazel Compatibility Matrix Tool
 
+[![Verify Matrix Status](https://github.com/bstoll/bazel-grpc/actions/workflows/verify_matrix.yml/badge.svg)](https://github.com/bstoll/bazel-grpc/actions/workflows/verify_matrix.yml)
+![Last Run](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Frepos%2Fbstoll%2Fbazel-grpc%2Factions%2Fworkflows%2Fverify_matrix.yml%2Fruns&label=last%20run&query=%24.workflow_runs%5B0%5D.created_at)
+
+
 This project provides a tool to test the compatibility of various versions of Bazel, gRPC, Protobuf, `rules_go`, and `rules_cc`.
 
 It automates the process of creating a test workspace, configuring dependencies via Bzlmod (`MODULE.bazel`), and running a Bazel build to verify that the specified versions work together.
