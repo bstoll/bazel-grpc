@@ -3,7 +3,28 @@ name: Verify Matrix
 on:
   schedule:
     - cron: '0 0 * * *' # Daily at midnight
-  workflow_dispatch: # Allow manual trigger
+  workflow_dispatch:
+    inputs:
+      bazel:
+        description: 'Bazel versions'
+        required: false
+        default: '7,8,9'
+      grpc:
+        description: 'gRPC version'
+        required: false
+        default: ''
+      proto:
+        description: 'Protobuf version'
+        required: false
+        default: ''
+      rules_go:
+        description: 'rules_go version'
+        required: false
+        default: ''
+      rules_cc:
+        description: 'rules_cc version'
+        required: false
+        default: ''
 
 jobs:
   verify:
@@ -22,7 +43,14 @@ jobs:
       - name: Run verification
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: go run .
+        run: |
+          declare -a ARGS
+          if [ -n "${{ inputs.bazel }}" ]; then ARGS+=("-bazel=${{ inputs.bazel }}"); fi
+          if [ -n "${{ inputs.grpc }}" ]; then ARGS+=("-grpc=${{ inputs.grpc }}"); fi
+          if [ -n "${{ inputs.proto }}" ]; then ARGS+=("-proto=${{ inputs.proto }}"); fi
+          if [ -n "${{ inputs.rules_go }}" ]; then ARGS+=("-rules_go=${{ inputs.rules_go }}"); fi
+          if [ -n "${{ inputs.rules_cc }}" ]; then ARGS+=("-rules_cc=${{ inputs.rules_cc }}"); fi
+          go run . "${ARGS[@]}"
 
       - name: Commit and push changes
         run: |
