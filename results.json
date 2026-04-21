@@ -68,5 +68,15 @@
     "success": false,
     "date": "2026-04-10",
     "log_file": "logs/bazel-9.0.2-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.17.log"
+  },
+  {
+    "bazel_version": "9.1.0",
+    "grpc_version": "1.80.0",
+    "proto_version": "34.1",
+    "rules_go_version": "0.60.0",
+    "rules_cc_version": "0.2.17",
+    "success": false,
+    "date": "2026-04-21",
+    "log_file": "logs/bazel-9.1.0-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.17.log"
   }
 ]
