@@ -1,0 +1,33 @@
+2026/04/22 00:40:18 Downloading https://releases.bazel.build/8.6.0/release/bazel-8.6.0-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server (8.6.0) and connecting to it...
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+    currently loading: proto
+Loading: 0 packages loaded
+    currently loading: proto
+Analyzing: 6 targets (1 packages loaded, 0 targets configured)
+Analyzing: 6 targets (1 packages loaded, 0 targets configured)
+
+Analyzing: 6 targets (42 packages loaded, 25 targets configured)
+
+Analyzing: 6 targets (89 packages loaded, 46 targets configured)
+
+Analyzing: 6 targets (91 packages loaded, 46 targets configured)
+
+Analyzing: 6 targets (91 packages loaded, 46 targets configured)
+
+Analyzing: 6 targets (106 packages loaded, 2228 targets configured)
+
+ERROR: error loading package '@@grpc+//': at /home/runner/.cache/bazel/_bazel_runner/2b019e7edd357a7958016575c1db2117/external/grpc+/bazel/grpc_build_system.bzl:34:6: cannot load '@@protobuf+//bazel:upb_proto_library.bzl': no such file
+ERROR: /tmp/bazel_test_387469015/proto/BUILD.bazel:22:16: error loading package '@@grpc+//': at /home/runner/.cache/bazel/_bazel_runner/2b019e7edd357a7958016575c1db2117/external/grpc+/bazel/grpc_build_system.bzl:34:6: cannot load '@@protobuf+//bazel:upb_proto_library.bzl': no such file and referenced by '//proto:greeter_cc_grpc'
+ERROR: Analysis of target '//proto:greeter_cc_grpc' failed; build aborted: Analysis failed
+INFO: Elapsed time: 31.300s, Critical Path: 0.03s
+INFO: 1 process: 1 internal.
+ERROR: Build did NOT complete successfully
+FAILED: 

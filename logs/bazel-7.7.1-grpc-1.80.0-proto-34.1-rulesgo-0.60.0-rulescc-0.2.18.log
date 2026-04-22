@@ -1,0 +1,23 @@
+2026/04/22 00:40:09 Downloading https://releases.bazel.build/7.7.1/release/bazel-7.7.1-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server and connecting to it...
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+    currently loading: proto
+Loading: 0 packages loaded
+    currently loading: proto
+Analyzing: 6 targets (1 packages loaded)
+Analyzing: 6 targets (1 packages loaded, 0 targets configured)
+Analyzing: 6 targets (1 packages loaded, 0 targets configured)
+
+ERROR: error loading package '@@grpc~//src/compiler': at /home/runner/.cache/bazel/_bazel_runner/9db308a3dca2d5c3f27d0ff952c38604/external/grpc~/bazel/grpc_build_system.bzl:34:6: cannot load '@@protobuf~//bazel:upb_proto_library.bzl': no such file
+ERROR: /tmp/bazel_test_3309355071/proto/BUILD.bazel:22:16: error loading package '@@grpc~//src/compiler': at /home/runner/.cache/bazel/_bazel_runner/9db308a3dca2d5c3f27d0ff952c38604/external/grpc~/bazel/grpc_build_system.bzl:34:6: cannot load '@@protobuf~//bazel:upb_proto_library.bzl': no such file and referenced by '//proto:_greeter_cc_grpc_grpc_codegen'
+ERROR: Analysis of target '//proto:_greeter_cc_grpc_grpc_codegen' failed; build aborted: Analysis failed
+INFO: Elapsed time: 9.024s, Critical Path: 0.02s
+INFO: 1 process: 1 internal.
+ERROR: Build did NOT complete successfully
+FAILED: 
