@@ -1,0 +1,51 @@
+2026/05/19 00:54:19 Downloading https://releases.bazel.build/7.7.1/release/bazel-7.7.1-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server and connecting to it...
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+    currently loading: proto
+Loading: 0 packages loaded
+    currently loading: proto
+Loading: 0 packages loaded
+    currently loading: proto
+Analyzing: 6 targets (1 packages loaded, 0 targets configured)
+Analyzing: 6 targets (1 packages loaded, 0 targets configured)
+
+Analyzing: 6 targets (58 packages loaded, 20 targets configured)
+
+Analyzing: 6 targets (118 packages loaded, 22 targets configured)
+
+Analyzing: 6 targets (127 packages loaded, 50 targets configured)
+
+Analyzing: 6 targets (127 packages loaded, 50 targets configured)
+
+Analyzing: 6 targets (146 packages loaded, 3952 targets configured)
+
+Analyzing: 6 targets (185 packages loaded, 8227 targets configured)
+
+Analyzing: 6 targets (191 packages loaded, 8231 targets configured)
+
+Analyzing: 6 targets (214 packages loaded, 11072 targets configured)
+
+Analyzing: 6 targets (229 packages loaded, 19603 targets configured)
+
+ERROR: /home/runner/.cache/bazel/_bazel_runner/526fd3df0e215f616349c963d10275c8/external/protobuf~/src/google/protobuf/BUILD.bazel:69:14: in proto_library rule @@protobuf~//src/google/protobuf:duration_proto: 
+Traceback (most recent call last):
+	File "/home/runner/.cache/bazel/_bazel_runner/526fd3df0e215f616349c963d10275c8/external/protobuf~/bazel/private/proto_library_rule.bzl", line 89, column 27, in _proto_library_impl
+		proto_info = ProtoInfo(
+	File "/virtual_builtins_bzl/common/proto/proto_info.bzl", line 144, column 24, in ProtoInfo
+	File "/virtual_builtins_bzl/common/proto/proto_info.bzl", line 47, column 5, in _create_proto_info
+Error: _create_proto_info() got unexpected keyword arguments: option_deps, extension_declarations
+ERROR: /home/runner/.cache/bazel/_bazel_runner/526fd3df0e215f616349c963d10275c8/external/protobuf~/src/google/protobuf/BUILD.bazel:69:14: Analysis of target '@@protobuf~//src/google/protobuf:duration_proto' failed
+Analyzing: 6 targets (240 packages loaded, 21447 targets configured)
+
+ERROR: Analysis of target '//proto:_greeter_cc_grpc_grpc_codegen' failed; build aborted: Analysis failed
+INFO: Elapsed time: 61.832s, Critical Path: 0.03s
+INFO: 1 process: 1 internal.
+ERROR: Build did NOT complete successfully
+FAILED: 
