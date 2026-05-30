@@ -1,0 +1,9 @@
+2026/05/30 00:53:48 Downloading https://releases.bazel.build/7.7.1/release/bazel-7.7.1-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server and connecting to it...
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+ERROR: Bazel version 7.7.1 is not compatible with module "protobuf@35.0" (bazel_compatibility: [>=8.0.0])
+ERROR: Error computing the main repository mapping: Bazel compatibility check failed
