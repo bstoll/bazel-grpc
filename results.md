@@ -8,13 +8,15 @@
 | 7.7.1 | 1.81.0-pre1 | 34.1 | 0.60.0 | 0.2.18 | [❌ Failed](logs/bazel-7.7.1-grpc-1.81.0-pre1-proto-34.1-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-05-19 |
 | 7.7.1 | 1.81.0-pre1 | 35.0 | 0.60.0 | 0.2.18 | [❌ Failed](logs/bazel-7.7.1-grpc-1.81.0-pre1-proto-35.0-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-05-20 |
 | 7.7.1 | 1.81.0 | 35.0 | 0.60.0 | 0.2.18 | [❌ Failed](logs/bazel-7.7.1-grpc-1.81.0-proto-35.0-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-05-30 |
+| 7.7.1 | 1.81.0 | 35.0 | 0.61.0 | 0.2.19 | [❌ Failed](logs/bazel-7.7.1-grpc-1.81.0-proto-35.0-rulesgo-0.61.0-rulescc-0.2.19.log) | 2026-06-02 |
 | 8.6.0 | 1.76.0.bcr.1 | 33.1 | 0.59.0 | 0.2.17 | [✅ OK](logs/bazel-8.6.0-grpc-1.76.0.bcr.1-proto-33.1-rulesgo-0.59.0-rulescc-0.2.17.log) | 2026-04-02 |
-| 8.6.0 | 1.80.0 | 34.1 | 0.60.0 | 0.2.17 | [❌ Failed](logs/bazel-8.6.0-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.17.log) | 2026-04-02 |
 | 8.6.0 | 1.80.0 | 34.1 | 0.60.0 | 0.2.18 | [❌ Failed](logs/bazel-8.6.0-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-04-22 |
+| 8.6.0 | 1.80.0 | 34.1 | 0.60.0 | 0.2.17 | [❌ Failed](logs/bazel-8.6.0-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.17.log) | 2026-04-02 |
 | 8.7.0 | 1.80.0 | 34.1 | 0.60.0 | 0.2.18 | [❌ Failed](logs/bazel-8.7.0-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-05-08 |
 | 8.7.0 | 1.81.0-pre1 | 34.1 | 0.60.0 | 0.2.18 | [✅ OK](logs/bazel-8.7.0-grpc-1.81.0-pre1-proto-34.1-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-05-19 |
 | 8.7.0 | 1.81.0-pre1 | 35.0 | 0.60.0 | 0.2.18 | [✅ OK](logs/bazel-8.7.0-grpc-1.81.0-pre1-proto-35.0-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-05-20 |
 | 8.7.0 | 1.81.0 | 35.0 | 0.60.0 | 0.2.18 | [✅ OK](logs/bazel-8.7.0-grpc-1.81.0-proto-35.0-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-05-30 |
+| 8.7.0 | 1.81.0 | 35.0 | 0.61.0 | 0.2.19 | [✅ OK](logs/bazel-8.7.0-grpc-1.81.0-proto-35.0-rulesgo-0.61.0-rulescc-0.2.19.log) | 2026-06-02 |
 | 9.0.1 | 1.76.0.bcr.1 | 33.1 | 0.59.0 | 0.2.17 | [✅ OK](logs/bazel-9.0.1-grpc-1.76.0.bcr.1-proto-33.1-rulesgo-0.59.0-rulescc-0.2.17.log) | 2026-04-02 |
 | 9.0.1 | 1.80.0 | 34.1 | 0.60.0 | 0.2.17 | [❌ Failed](logs/bazel-9.0.1-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.17.log) | 2026-04-02 |
 | 9.0.2 | 1.80.0 | 34.1 | 0.60.0 | 0.2.17 | [❌ Failed](logs/bazel-9.0.2-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.17.log) | 2026-04-10 |
@@ -23,3 +25,4 @@
 | 9.1.0 | 1.81.0-pre1 | 34.1 | 0.60.0 | 0.2.18 | [❌ Failed](logs/bazel-9.1.0-grpc-1.81.0-pre1-proto-34.1-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-05-19 |
 | 9.1.0 | 1.81.0-pre1 | 35.0 | 0.60.0 | 0.2.18 | [❌ Failed](logs/bazel-9.1.0-grpc-1.81.0-pre1-proto-35.0-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-05-20 |
 | 9.1.0 | 1.81.0 | 35.0 | 0.60.0 | 0.2.18 | [❌ Failed](logs/bazel-9.1.0-grpc-1.81.0-proto-35.0-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-05-30 |
+| 9.1.0 | 1.81.0 | 35.0 | 0.61.0 | 0.2.19 | [❌ Failed](logs/bazel-9.1.0-grpc-1.81.0-proto-35.0-rulesgo-0.61.0-rulescc-0.2.19.log) | 2026-06-02 |

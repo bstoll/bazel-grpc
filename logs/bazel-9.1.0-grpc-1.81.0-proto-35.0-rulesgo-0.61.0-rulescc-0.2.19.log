@@ -1,0 +1,53 @@
+2026/06/02 01:00:28 Downloading https://releases.bazel.build/9.1.0/release/bazel-9.1.0-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server (9.1.0) and connecting to it...
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+    currently loading: proto
+Loading: 0 packages loaded
+    currently loading: proto
+Loading: 0 packages loaded
+    currently loading: proto
+Analyzing: 6 targets (5 packages loaded, 6 targets configured)
+Analyzing: 6 targets (5 packages loaded, 6 targets configured)
+
+Analyzing: 6 targets (19 packages loaded, 9 targets configured)
+
+Analyzing: 6 targets (72 packages loaded, 12 targets configured)
+
+Analyzing: 6 targets (74 packages loaded, 12 targets configured)
+
+Analyzing: 6 targets (74 packages loaded, 12 targets configured)
+
+Analyzing: 6 targets (87 packages loaded, 2370 targets configured)
+
+Analyzing: 6 targets (122 packages loaded, 3949 targets configured)
+
+Analyzing: 6 targets (149 packages loaded, 6866 targets configured)
+[3 / 3] no actions running
+ERROR: Traceback (most recent call last):
+	File "/home/runner/.cache/bazel/_bazel_runner/b52d622fe3db8befd959c389a7039265/external/grpc+/third_party/address_sorting/BUILD", line 45, column 27, in <toplevel>
+		address_sorting_cc_library(
+	File "/home/runner/.cache/bazel/_bazel_runner/b52d622fe3db8befd959c389a7039265/external/grpc+/third_party/address_sorting/address_sorting.bzl", line 32, column 22, in address_sorting_cc_library
+		native.cc_library(
+	File "/virtual_builtins_bzl/bazel/exports.bzl", line 40, column 9, in _removed_rule_failure
+Error in fail: 
+         This rule has been removed from Bazel. Please add a `load()` statement for it.
+         This can also be done automatically by running:
+         buildifier --lint=fix <path-to-BUILD-or-bzl-file>
+         
+ERROR: /home/runner/.cache/bazel/_bazel_runner/b52d622fe3db8befd959c389a7039265/external/grpc+/third_party/address_sorting/BUILD: no such target '@@grpc+//third_party/address_sorting:address_sorting': target 'address_sorting' not declared in package 'third_party/address_sorting' defined by /home/runner/.cache/bazel/_bazel_runner/b52d622fe3db8befd959c389a7039265/external/grpc+/third_party/address_sorting/BUILD
+ERROR: /home/runner/.cache/bazel/_bazel_runner/b52d622fe3db8befd959c389a7039265/external/grpc+/src/core/BUILD:3408:16: no such target '@@grpc+//third_party/address_sorting:address_sorting': target 'address_sorting' not declared in package 'third_party/address_sorting' defined by /home/runner/.cache/bazel/_bazel_runner/b52d622fe3db8befd959c389a7039265/external/grpc+/third_party/address_sorting/BUILD and referenced by '@@grpc+//src/core:ares_resolver'
+Analyzing: 6 targets (158 packages loaded, 8323 targets configured)
+[3 / 3] no actions running
+Target //proto:greeter_proto up-to-date:
+  bazel-bin/proto/greeter_proto-descriptor-set.proto.bin
+ERROR: Analysis of target '//proto:greeter_cc_grpc' failed; build aborted: Analysis failed
+INFO: Elapsed time: 40.506s, Critical Path: 0.13s
+INFO: 3 processes: 1 internal, 2 processwrapper-sandbox.
+ERROR: Build did NOT complete successfully
+FAILED: 
