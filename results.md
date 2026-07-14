@@ -54,3 +54,4 @@
 | 9.1.1 | 1.82.0 | 35.1 | 0.61.1 | 0.2.21 | [❌ Failed](logs/bazel-9.1.1-grpc-1.82.0-proto-35.1-rulesgo-0.61.1-rulescc-0.2.21.log) | 2026-07-07 |
 | 9.1.1 | 1.82.0 | 35.1 | 0.61.1 | 0.2.22 | [❌ Failed](logs/bazel-9.1.1-grpc-1.82.0-proto-35.1-rulesgo-0.61.1-rulescc-0.2.22.log) | 2026-07-08 |
 | 9.1.1 | 1.83.0-pre1 | 35.1 | 0.61.1 | 0.2.22 | [✅ OK](logs/bazel-9.1.1-grpc-1.83.0-pre1-proto-35.1-rulesgo-0.61.1-rulescc-0.2.22.log) | 2026-07-11 |
+| 9.2.0 | 1.83.0-pre1 | 35.1 | 0.61.1 | 0.2.22 | [✅ OK](logs/bazel-9.2.0-grpc-1.83.0-pre1-proto-35.1-rulesgo-0.61.1-rulescc-0.2.22.log) | 2026-07-14 |
