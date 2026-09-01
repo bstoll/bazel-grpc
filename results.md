@@ -22,6 +22,7 @@
 | 7.7.1 | 1.83.0 | 35.1 | 0.62.0 | 0.2.22 | [❌ Failed](logs/bazel-7.7.1-grpc-1.83.0-proto-35.1-rulesgo-0.62.0-rulescc-0.2.22.log) | 2026-07-24 |
 | 7.7.1 | 1.83.0 | 35.1 | 0.63.0 | 0.2.22 | [❌ Failed](logs/bazel-7.7.1-grpc-1.83.0-proto-35.1-rulesgo-0.63.0-rulescc-0.2.22.log) | 2026-08-17 |
 | 7.7.1 | 1.83.0 | 36.0 | 0.63.0 | 0.2.22 | [❌ Failed](logs/bazel-7.7.1-grpc-1.83.0-proto-36.0-rulesgo-0.63.0-rulescc-0.2.22.log) | 2026-08-21 |
+| 7.7.1 | 1.83.0 | 36.1 | 0.63.0 | 0.2.22 | [❌ Failed](logs/bazel-7.7.1-grpc-1.83.0-proto-36.1-rulesgo-0.63.0-rulescc-0.2.22.log) | 2026-09-01 |
 | 8.6.0 | 1.76.0.bcr.1 | 33.1 | 0.59.0 | 0.2.17 | [✅ OK](logs/bazel-8.6.0-grpc-1.76.0.bcr.1-proto-33.1-rulesgo-0.59.0-rulescc-0.2.17.log) | 2026-04-02 |
 | 8.6.0 | 1.80.0 | 34.1 | 0.60.0 | 0.2.18 | [❌ Failed](logs/bazel-8.6.0-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.18.log) | 2026-04-22 |
 | 8.6.0 | 1.80.0 | 34.1 | 0.60.0 | 0.2.17 | [❌ Failed](logs/bazel-8.6.0-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.17.log) | 2026-04-02 |
@@ -43,6 +44,7 @@
 | 8.7.0 | 1.83.0 | 35.1 | 0.62.0 | 0.2.22 | [✅ OK](logs/bazel-8.7.0-grpc-1.83.0-proto-35.1-rulesgo-0.62.0-rulescc-0.2.22.log) | 2026-07-24 |
 | 8.7.0 | 1.83.0 | 35.1 | 0.63.0 | 0.2.22 | [✅ OK](logs/bazel-8.7.0-grpc-1.83.0-proto-35.1-rulesgo-0.63.0-rulescc-0.2.22.log) | 2026-08-17 |
 | 8.7.0 | 1.83.0 | 36.0 | 0.63.0 | 0.2.22 | [✅ OK](logs/bazel-8.7.0-grpc-1.83.0-proto-36.0-rulesgo-0.63.0-rulescc-0.2.22.log) | 2026-08-21 |
+| 8.8.0 | 1.83.0 | 36.1 | 0.63.0 | 0.2.22 | [✅ OK](logs/bazel-8.8.0-grpc-1.83.0-proto-36.1-rulesgo-0.63.0-rulescc-0.2.22.log) | 2026-09-01 |
 | 9.0.1 | 1.76.0.bcr.1 | 33.1 | 0.59.0 | 0.2.17 | [✅ OK](logs/bazel-9.0.1-grpc-1.76.0.bcr.1-proto-33.1-rulesgo-0.59.0-rulescc-0.2.17.log) | 2026-04-02 |
 | 9.0.1 | 1.80.0 | 34.1 | 0.60.0 | 0.2.17 | [❌ Failed](logs/bazel-9.0.1-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.17.log) | 2026-04-02 |
 | 9.0.2 | 1.80.0 | 34.1 | 0.60.0 | 0.2.17 | [❌ Failed](logs/bazel-9.0.2-grpc-1.80.0-proto-34.1-rulesgo-0.60.0-rulescc-0.2.17.log) | 2026-04-10 |
@@ -67,3 +69,4 @@
 | 9.2.0 | 1.83.0 | 35.1 | 0.62.0 | 0.2.22 | [✅ OK](logs/bazel-9.2.0-grpc-1.83.0-proto-35.1-rulesgo-0.62.0-rulescc-0.2.22.log) | 2026-07-24 |
 | 9.2.0 | 1.83.0 | 35.1 | 0.63.0 | 0.2.22 | [✅ OK](logs/bazel-9.2.0-grpc-1.83.0-proto-35.1-rulesgo-0.63.0-rulescc-0.2.22.log) | 2026-08-17 |
 | 9.2.0 | 1.83.0 | 36.0 | 0.63.0 | 0.2.22 | [✅ OK](logs/bazel-9.2.0-grpc-1.83.0-proto-36.0-rulesgo-0.63.0-rulescc-0.2.22.log) | 2026-08-21 |
+| 9.2.0 | 1.83.0 | 36.1 | 0.63.0 | 0.2.22 | [❌ Failed](logs/bazel-9.2.0-grpc-1.83.0-proto-36.1-rulesgo-0.63.0-rulescc-0.2.22.log) | 2026-09-01 |
