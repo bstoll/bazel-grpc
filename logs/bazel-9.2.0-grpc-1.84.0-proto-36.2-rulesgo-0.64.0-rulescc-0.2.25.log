@@ -1,0 +1,1191 @@
+2026/10/01 04:46:41 Downloading https://releases.bazel.build/9.2.0/release/bazel-9.2.0-linux-x86_64...
+Extracting Bazel installation...
+Starting local Bazel server (9.2.0) and connecting to it...
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Computing main repo mapping: 
+Loading: 
+Loading: 0 packages loaded
+Loading: 0 packages loaded
+    currently loading: proto
+Loading: 0 packages loaded
+    currently loading: proto
+Analyzing: 6 targets (5 packages loaded)
+Analyzing: 6 targets (5 packages loaded, 6 targets configured)
+Analyzing: 6 targets (5 packages loaded, 6 targets configured)
+
+Analyzing: 6 targets (18 packages loaded, 9 targets configured)
+
+Analyzing: 6 targets (44 packages loaded, 13 targets configured)
+
+Analyzing: 6 targets (81 packages loaded, 2351 targets configured)
+
+Analyzing: 6 targets (115 packages loaded, 3625 targets configured)
+
+Analyzing: 6 targets (162 packages loaded, 5029 targets configured)
+[3 / 3] no actions running
+Analyzing: 6 targets (171 packages loaded, 8392 targets configured)
+[3 / 3] no actions running
+Analyzing: 6 targets (193 packages loaded, 9290 targets configured)
+[3 / 3] no actions running
+Analyzing: 6 targets (200 packages loaded, 9888 targets configured)
+[3 / 3] no actions running
+Analyzing: 6 targets (204 packages loaded, 13816 targets configured, 15 aspect applications)
+[3 / 3] no actions running
+Analyzing: 6 targets (209 packages loaded, 14133 targets configured, 87 aspect applications)
+[293 / 1,072] Compiling absl/time/internal/cctz/src/time_zone_fixed.cc [for tool]; 0s processwrapper-sandbox ... (3 actions running)
+Analyzing: 6 targets (210 packages loaded, 14203 targets configured, 87 aspect applications)
+[386 / 1,072] Compiling absl/time/internal/cctz/src/time_zone_fixed.cc [for tool]; 1s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (210 packages loaded, 14203 targets configured, 87 aspect applications)
+[393 / 1,072] Compiling inflate.c [for tool]; 0s processwrapper-sandbox ... (3 actions running)
+Analyzing: 6 targets (212 packages loaded, 19998 targets configured, 87 aspect applications)
+[395 / 1,072] Compiling inflate.c [for tool]; 1s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[407 / 1,072] Compiling absl/time/internal/cctz/src/time_zone_format.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[602 / 2,030] Compiling absl/time/internal/cctz/src/time_zone_format.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[664 / 2,030] Compiling absl/time/internal/cctz/src/time_zone_if.cc [for tool]; 0s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[672 / 2,030] Compiling absl/status/internal/status_internal.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[680 / 2,030] Compiling absl/status/internal/status_internal.cc; 2s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[691 / 2,030] Compiling absl/status/internal/status_internal.cc; 3s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[693 / 2,030] Compiling src/google/protobuf/json/internal/zero_copy_buffered_stream.cc; 1s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[695 / 2,030] Compiling src/google/protobuf/json/internal/zero_copy_buffered_stream.cc; 2s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[696 / 2,030] Compiling src/google/protobuf/json/internal/zero_copy_buffered_stream.cc; 3s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling upb/wire/decode.c [for tool]:
+In function '_upb_Decoder_GetAddUnknownMode',
+    inlined from '_upb_Decoder_DecodeUnknowns.isra' at external/protobuf+/upb/wire/decode.c:1073:10:
+external/protobuf+/upb/wire/decode.c:121:8: warning: 'sv.data' may be used uninitialized [-Wmaybe-uninitialized]
+  121 |     if (data != d->input.buffer_start) {
+      |        ^
+external/protobuf+/upb/wire/decode.c: In function '_upb_Decoder_DecodeUnknowns.isra':
+external/protobuf+/upb/wire/decode.c:1069:18: note: 'sv.data' was declared here
+ 1069 |   upb_StringView sv;
+      |                  ^~
+external/protobuf+/upb/wire/decode.c:1072:6: warning: 'sv.size' may be used uninitialized [-Wmaybe-uninitialized]
+ 1072 |   if (UPB_LIKELY(sv.size > 0)) {
+      |      ^
+external/protobuf+/upb/wire/decode.c:1069:18: note: 'sv.size' was declared here
+ 1069 |   upb_StringView sv;
+      |                  ^~
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[705 / 2,030] Compiling absl/log/die_if_null.cc; 0s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[708 / 2,030] Compiling absl/status/status_payload_printer.cc; 1s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[715 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[744 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[748 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[757 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 4s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[759 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 6s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[762 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 7s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[764 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 8s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[765 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 10s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[767 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 11s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[771 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 12s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[772 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 13s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[773 / 2,030] Compiling src/google/protobuf/util/message_differencer.cc; 14s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[777 / 2,030] Compiling src/google/protobuf/json/internal/message_path.cc; 4s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[778 / 2,030] Compiling src/google/protobuf/json/internal/message_path.cc; 6s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[826 / 2,030] Compiling src/google/protobuf/util/field_comparator.cc; 3s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[829 / 2,030] Compiling src/google/protobuf/util/field_comparator.cc; 4s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[832 / 2,030] Compiling src/google/protobuf/util/field_comparator.cc; 5s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[841 / 2,030] Compiling src/google/protobuf/util/field_comparator.cc; 6s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling src/google/protobuf/util/field_comparator.cc:
+external/protobuf+/src/google/protobuf/util/field_comparator.cc: In member function 'google::protobuf::util::FieldComparator::ComparisonResult google::protobuf::util::SimpleFieldComparator::SimpleCompare(const google::protobuf::Message&, const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int, int, const google::protobuf::util::FieldContext*)':
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:77:50: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+   77 |         *field, reflection_1->GetRepeated##METHOD(message_1, field, index_1), \
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:91:7: note: in expansion of macro 'COMPARE_FIELD'
+   91 |       COMPARE_FIELD(Enum);
+      |       ^~~~~~~~~~~~~
+In file included from external/protobuf+/src/google/protobuf/util/field_comparator.cc:21:
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:78:42: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+   78 |         reflection_2->GetRepeated##METHOD(message_2, field, index_2)));       \
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:91:7: note: in expansion of macro 'COMPARE_FIELD'
+   91 |       COMPARE_FIELD(Enum);
+      |       ^~~~~~~~~~~~~
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:81:58: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+   81 |         Compare##METHOD(*field, reflection_1->Get##METHOD(message_1, field),  \
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:91:7: note: in expansion of macro 'COMPARE_FIELD'
+   91 |       COMPARE_FIELD(Enum);
+      |       ^~~~~~~~~~~~~
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:82:50: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+   82 |                         reflection_2->Get##METHOD(message_2, field)));        \
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:91:7: note: in expansion of macro 'COMPARE_FIELD'
+   91 |       COMPARE_FIELD(Enum);
+      |       ^~~~~~~~~~~~~
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[846 / 2,030] Compiling absl/strings/internal/escaping.cc [for tool]; 0s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[851 / 2,030] Compiling src/google/protobuf/util/delimited_message_util.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[854 / 2,030] Compiling src/google/protobuf/util/delimited_message_util.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (212 packages loaded, 20009 targets configured, 87 aspect applications)
+[858 / 2,030] Compiling upb/reflection/service_def.c [for tool]; 1s processwrapper-sandbox ... (4 actions, 3 running)
+Analyzing: 6 targets (214 packages loaded, 20013 targets configured, 87 aspect applications)
+[862 / 2,030] Compiling src/google/protobuf/compiler/parser.cc; 1s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (246 packages loaded, 20048 targets configured, 87 aspect applications)
+[865 / 2,030] Compiling src/google/protobuf/compiler/parser.cc; 2s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (301 packages loaded, 20376 targets configured, 87 aspect applications)
+[867 / 2,030] Compiling src/google/protobuf/compiler/parser.cc; 3s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (341 packages loaded, 20552 targets configured, 87 aspect applications)
+[868 / 2,030] Compiling src/google/protobuf/compiler/parser.cc; 4s processwrapper-sandbox ... (4 actions running)
+Analyzing: 6 targets (343 packages loaded, 20841 targets configured, 87 aspect applications)
+[870 / 2,030] Compiling src/google/protobuf/compiler/parser.cc; 5s processwrapper-sandbox ... (4 actions running)
+INFO: Analyzed 6 targets (348 packages loaded, 20876 targets configured, 87 aspect applications).
+[872 / 2,030] Compiling src/google/protobuf/compiler/parser.cc; 6s processwrapper-sandbox ... (4 actions running)
+[878 / 2,030] Compiling src/google/protobuf/compiler/parser.cc; 8s processwrapper-sandbox ... (4 actions, 3 running)
+[883 / 2,030] Compiling absl/strings/substitute.cc; 0s processwrapper-sandbox ... (4 actions, 3 running)
+[890 / 2,030] Compiling src/google/protobuf/compiler/importer.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[897 / 2,030] Compiling src/google/protobuf/compiler/importer.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[912 / 2,030] Compiling src/google/protobuf/compiler/importer.cc; 4s processwrapper-sandbox ... (4 actions running)
+[925 / 2,030] Compiling absl/strings/cord.cc; 2s processwrapper-sandbox ... (4 actions running)
+[977 / 2,030] Compiling absl/strings/cord_analysis.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[985 / 2,030] Compiling absl/strings/internal/cord_internal.cc; 1s processwrapper-sandbox ... (4 actions running)
+[999 / 2,220] Compiling absl/log/globals.cc [for tool]; 0s processwrapper-sandbox ... (4 actions running)
+[1,002 / 2,220] Compiling src/google/protobuf/wire_format_lite.cc; 1s processwrapper-sandbox ... (4 actions running)
+[1,005 / 2,220] Compiling absl/log/internal/vlog_config.cc [for tool]; 1s processwrapper-sandbox ... (4 actions running)
+[1,006 / 2,220] Compiling src/google/protobuf/unknown_field_set_lite.cc; 1s processwrapper-sandbox ... (4 actions running)
+[1,011 / 2,220] Compiling absl/crc/internal/crc_cord_state.cc; 0s processwrapper-sandbox ... (4 actions running)
+[1,015 / 2,220] Compiling src/google/protobuf/repeated_ptr_field.cc; 1s processwrapper-sandbox ... (4 actions running)
+[1,020 / 2,220] Compiling absl/crc/internal/crc_non_temporal_memcpy.cc; 0s processwrapper-sandbox ... (4 actions running)
+[1,024 / 2,220] Compiling src/google/protobuf/repeated_field.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,029 / 2,220] Compiling absl/strings/internal/str_format/bind.cc; 0s processwrapper-sandbox ... (4 actions, 3 running)
+[1,034 / 2,220] Compiling src/google/protobuf/parse_context.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,039 / 2,220] Compiling src/google/protobuf/parse_context.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,043 / 2,220] Compiling absl/strings/internal/cordz_handle.cc; 0s processwrapper-sandbox ... (4 actions, 3 running)
+[1,048 / 2,220] Compiling src/google/protobuf/message_lite.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,053 / 2,220] Compiling src/google/protobuf/message_lite.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,058 / 2,220] Compiling src/google/protobuf/map.cc; 1s processwrapper-sandbox ... (4 actions running)
+[1,062 / 2,220] Compiling src/google/protobuf/map.cc; 2s processwrapper-sandbox ... (4 actions running)
+[1,068 / 2,220] Compiling absl/time/duration.cc; 0s processwrapper-sandbox ... (4 actions, 3 running)
+[1,073 / 2,220] Compiling src/google/protobuf/inlined_string_field.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,077 / 2,220] Compiling src/google/protobuf/compiler/rust/relative_path.cc [for tool]; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,080 / 2,220] Compiling src/google/protobuf/implicit_weak_message.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,088 / 2,220] Compiling src/google/protobuf/generated_message_util.cc; 0s processwrapper-sandbox ... (4 actions, 3 running)
+[1,088 / 2,220] Compiling src/google/protobuf/generated_message_util.cc; 1s processwrapper-sandbox ... (4 actions running)
+[1,092 / 2,220] Compiling src/google/protobuf/io/zero_copy_stream_impl.cc; 0s processwrapper-sandbox ... (4 actions running)
+[1,096 / 2,220] Compiling src/google/protobuf/generated_message_tctable_lite.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,098 / 2,220] Compiling src/google/protobuf/generated_message_tctable_lite.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,101 / 2,220] Compiling src/google/protobuf/generated_message_tctable_lite.cc; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,104 / 2,220] Compiling src/google/protobuf/generated_message_tctable_lite.cc; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,108 / 2,220] Compiling absl/container/internal/raw_hash_set.cc [for tool]; 1s processwrapper-sandbox ... (4 actions running)
+[1,111 / 2,220] Compiling absl/container/internal/raw_hash_set.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,116 / 2,220] Compiling upb_generator/c/names.cc [for tool]; 0s processwrapper-sandbox ... (4 actions running)
+[1,119 / 2,220] Compiling upb_generator/c/names.cc [for tool]; 1s processwrapper-sandbox ... (4 actions running)
+[1,120 / 2,220] Compiling src/google/protobuf/extension_set.cc; 2s processwrapper-sandbox ... (4 actions running)
+[1,123 / 2,220] Compiling src/google/protobuf/extension_set.cc; 3s processwrapper-sandbox ... (4 actions running)
+[1,124 / 2,220] Compiling src/google/protobuf/extension_set.cc; 4s processwrapper-sandbox ... (4 actions running)
+[1,127 / 2,220] Compiling src/google/protobuf/io/printer.cc; 2s processwrapper-sandbox ... (4 actions running)
+[1,131 / 2,220] Compiling src/google/protobuf/io/printer.cc; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,136 / 2,220] Compiling src/google/protobuf/any_lite.cc; 0s processwrapper-sandbox ... (4 actions running)
+[1,138 / 2,220] Compiling src/google/protobuf/io/tokenizer.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,141 / 2,220] Compiling src/google/protobuf/any.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,143 / 2,220] Compiling src/google/protobuf/cpp_features.pb.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,144 / 2,220] Compiling src/google/protobuf/cpp_features.pb.cc; 3s processwrapper-sandbox ... (4 actions running)
+[1,146 / 2,220] Compiling src/google/protobuf/cpp_file_options.pb.cc; 3s processwrapper-sandbox ... (4 actions running)
+[1,148 / 2,220] Compiling src/google/protobuf/wire_format.cc; 3s processwrapper-sandbox ... (4 actions running)
+[1,149 / 2,220] Compiling src/google/protobuf/wire_format.cc; 4s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/google/protobuf/wire_format.cc:
+external/protobuf+/src/google/protobuf/wire_format.cc: In static member function 'static uint8_t* google::protobuf::internal::WireFormat::InternalSerializeField(const google::protobuf::FieldDescriptor*, const google::protobuf::Message&, uint8_t*, google::protobuf::io::EpsCopyOutputStream*)':
+external/protobuf+/src/google/protobuf/wire_format.cc:1377:54: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+ 1377 |                 ? message_reflection->GetRepeatedEnum(message, field, j)
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+In file included from bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/wire_format.h:29,
+                 from external/protobuf+/src/google/protobuf/wire_format.cc:12:
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/wire_format.cc:1378:46: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+ 1378 |                 : message_reflection->GetEnum(message, field);
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+external/protobuf+/src/google/protobuf/wire_format.cc: In static member function 'static size_t google::protobuf::internal::WireFormat::FieldDataOnlyByteSize(const google::protobuf::FieldDescriptor*, const google::protobuf::Message&)':
+external/protobuf+/src/google/protobuf/wire_format.cc:1714:50: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+ 1714 |               message_reflection->GetRepeatedEnum(message, field, j)->number());
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/wire_format.cc:1718:40: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+ 1718 |             message_reflection->GetEnum(message, field)->number());
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+[1,151 / 2,220] Compiling src/google/protobuf/descriptor.cc; 5s processwrapper-sandbox ... (4 actions running)
+[1,152 / 2,220] Compiling src/google/protobuf/descriptor.cc; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[1,153 / 2,220] Compiling src/google/protobuf/descriptor.cc; 8s processwrapper-sandbox ... (4 actions running)
+[1,154 / 2,220] Compiling src/google/protobuf/descriptor.cc; 11s processwrapper-sandbox ... (4 actions, 3 running)
+[1,154 / 2,220] Compiling src/google/protobuf/descriptor.cc; 12s processwrapper-sandbox ... (4 actions running)
+[1,155 / 2,220] Compiling src/google/protobuf/descriptor.cc; 13s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling src/google/protobuf/text_format.cc:
+external/protobuf+/src/google/protobuf/text_format.cc: In member function 'google::protobuf::TextFormat::ParseLocation google::protobuf::TextFormat::ParseInfoTree::GetLocation(const google::protobuf::FieldDescriptor*, int) const':
+external/protobuf+/src/google/protobuf/text_format.cc:262:26: warning: 'google::protobuf::TextFormat::ParseLocationRange google::protobuf::TextFormat::ParseInfoTree::GetLocationRange(const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetFieldLocation() [-Wdeprecated-declarations]
+  262 |   return GetLocationRange(field, index).start;
+      |          ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/text_format.cc:244:32: note: declared here
+  244 | TextFormat::ParseLocationRange TextFormat::ParseInfoTree::GetLocationRange(
+      |                                ^~~~~~~~~~
+external/protobuf+/src/google/protobuf/text_format.cc: In member function 'bool google::protobuf::TextFormat::Parser::ParserImpl::ConsumeFieldValue(google::protobuf::Message*, const google::protobuf::Reflection*, const google::protobuf::FieldDescriptor*)':
+external/protobuf+/src/google/protobuf/text_format.cc:966:37: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  966 |             reflection->Get##CPPTYPE(*message, field) &&           \
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/text_format.cc:1086:9: note: in expansion of macro 'SET_FIELD'
+ 1086 |         SET_FIELD(Enum, enum, enum_value);
+      |         ^~~~~~~~~
+In file included from bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/text_format.h:31,
+                 from external/protobuf+/src/google/protobuf/text_format.cc:12:
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+[1,156 / 2,220] Compiling src/google/protobuf/descriptor.cc; 14s processwrapper-sandbox ... (4 actions running)
+[1,157 / 2,220] Compiling src/google/protobuf/descriptor.cc; 16s processwrapper-sandbox ... (4 actions running)
+[1,158 / 2,220] Compiling src/google/protobuf/generated_message_tctable_lite.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,160 / 2,220] Compiling src/google/protobuf/generated_message_tctable_lite.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,160 / 2,220] Compiling src/google/protobuf/generated_message_tctable_lite.cc [for tool]; 7s processwrapper-sandbox ... (4 actions running)
+[1,161 / 2,220] Compiling src/google/protobuf/generated_message_tctable_lite.cc [for tool]; 8s processwrapper-sandbox ... (4 actions, 3 running)
+[1,163 / 2,220] Compiling src/google/protobuf/generated_message_tctable_lite.cc [for tool]; 10s processwrapper-sandbox ... (4 actions running)
+[1,165 / 2,220] Compiling src/google/protobuf/reflection_ops.cc; 2s processwrapper-sandbox ... (4 actions running)
+[1,167 / 2,220] Compiling src/google/protobuf/reflection_ops.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/google/protobuf/reflection_ops.cc:
+external/protobuf+/src/google/protobuf/reflection_ops.cc: In static member function 'static void google::protobuf::internal::ReflectionOps::Merge(const google::protobuf::Message&, google::protobuf::Message*)':
+external/protobuf+/src/google/protobuf/reflection_ops.cc:92:56: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+   92 |         to, field, from_reflection->GetRepeated##METHOD(from, field, j)); \
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/reflection_ops.cc:103:11: note: in expansion of macro 'HANDLE_TYPE'
+  103 |           HANDLE_TYPE(ENUM, Enum);
+      |           ^~~~~~~~~~~
+In file included from bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/reflection_ops.h:18,
+                 from external/protobuf+/src/google/protobuf/reflection_ops.cc:11:
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/reflection_ops.cc:125:60: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  125 |                                from_reflection->Get##METHOD(from, field)); \
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/reflection_ops.cc:136:9: note: in expansion of macro 'HANDLE_TYPE'
+  136 |         HANDLE_TYPE(ENUM, Enum);
+      |         ^~~~~~~~~~~
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+[1,169 / 2,220] Compiling src/google/protobuf/generated_message_reflection.cc; 3s processwrapper-sandbox ... (4 actions running)
+[1,171 / 2,220] Compiling src/google/protobuf/generated_message_reflection.cc; 4s processwrapper-sandbox ... (4 actions running)
+[1,172 / 2,220] Compiling src/google/protobuf/generated_message_reflection.cc; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,172 / 2,220] Compiling src/google/protobuf/generated_message_reflection.cc; 7s processwrapper-sandbox ... (4 actions running)
+[1,173 / 2,220] Compiling src/google/protobuf/generated_message_reflection.cc; 8s processwrapper-sandbox ... (4 actions running)
+[1,176 / 2,220] Compiling src/google/protobuf/internal_feature_helper.cc; 1s processwrapper-sandbox ... (4 actions running)
+[1,177 / 2,220] Compiling src/google/protobuf/map_field.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,181 / 2,221] Compiling absl/random/internal/randen_hwaes.cc; 0s processwrapper-sandbox ... (3 actions, 2 running)
+[1,185 / 2,221] Compiling src/google/protobuf/parse_context.cc [for tool]; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,192 / 2,221] Compiling src/google/protobuf/parse_context.cc [for tool]; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,196 / 2,221] Compiling absl/flags/reflection.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,202 / 2,221] Compiling src/google/protobuf/repeated_field.cc [for tool]; 0s processwrapper-sandbox ... (4 actions running)
+[1,210 / 2,221] Compiling src/google/protobuf/repeated_field.cc [for tool]; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,216 / 2,221] Compiling src/google/protobuf/repeated_ptr_field.cc [for tool]; 1s processwrapper-sandbox ... (4 actions running)
+[1,234 / 2,221] Compiling src/core/util/time_precise.cc; 0s processwrapper-sandbox ... (4 actions, 3 running)
+[1,237 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,241 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,245 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,248 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,253 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,257 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[1,259 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 9s processwrapper-sandbox ... (4 actions, 3 running)
+[1,261 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 10s processwrapper-sandbox ... (4 actions running)
+[1,265 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 11s processwrapper-sandbox ... (4 actions, 3 running)
+[1,271 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 12s processwrapper-sandbox ... (4 actions, 3 running)
+[1,273 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 13s processwrapper-sandbox ... (4 actions, 3 running)
+[1,276 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 15s processwrapper-sandbox ... (4 actions running)
+[1,279 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 16s processwrapper-sandbox ... (4 actions, 3 running)
+[1,281 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 17s processwrapper-sandbox ... (4 actions, 3 running)
+[1,290 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 19s processwrapper-sandbox ... (4 actions running)
+[1,292 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 20s processwrapper-sandbox ... (4 actions running)
+[1,295 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 21s processwrapper-sandbox ... (4 actions, 3 running)
+[1,299 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 22s processwrapper-sandbox ... (4 actions, 3 running)
+[1,302 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 23s processwrapper-sandbox ... (4 actions, 3 running)
+[1,304 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 25s processwrapper-sandbox ... (4 actions, 3 running)
+[1,304 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 26s processwrapper-sandbox ... (4 actions running)
+[1,307 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 27s processwrapper-sandbox ... (4 actions, 3 running)
+[1,310 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 28s processwrapper-sandbox ... (4 actions, 3 running)
+[1,311 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 30s processwrapper-sandbox ... (4 actions, 3 running)
+[1,316 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 31s processwrapper-sandbox ... (4 actions running)
+[1,318 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 32s processwrapper-sandbox ... (4 actions running)
+[1,319 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 33s processwrapper-sandbox ... (4 actions running)
+[1,322 / 2,221] GoToolchainBinaryBuild external/rules_go++go_sdk+go_default_sdk/builder [for tool]; 34s processwrapper-sandbox ... (4 actions, 3 running)
+[1,323 / 2,221] Compiling src/google/protobuf/compiler/parser.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,327 / 2,221] Compiling src/google/protobuf/compiler/parser.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,328 / 2,221] Compiling src/google/protobuf/compiler/parser.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[1,329 / 2,221] Compiling src/google/protobuf/compiler/parser.cc [for tool]; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[1,329 / 2,221] Compiling src/google/protobuf/compiler/parser.cc [for tool]; 9s processwrapper-sandbox ... (4 actions running)
+[1,332 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 6s processwrapper-sandbox ... (4 actions running)
+[1,334 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 8s processwrapper-sandbox ... (3 actions, 2 running)
+[1,334 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 9s processwrapper-sandbox ... (4 actions running)
+[1,335 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 12s processwrapper-sandbox ... (4 actions, 3 running)
+[1,337 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 13s processwrapper-sandbox ... (4 actions, 3 running)
+[1,337 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 14s processwrapper-sandbox ... (4 actions running)
+[1,338 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 16s processwrapper-sandbox ... (4 actions, 3 running)
+[1,339 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 17s processwrapper-sandbox ... (4 actions, 3 running)
+[1,339 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 18s processwrapper-sandbox ... (4 actions running)
+[1,340 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 20s processwrapper-sandbox ... (4 actions, 3 running)
+[1,341 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 21s processwrapper-sandbox ... (4 actions running)
+[1,342 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 22s processwrapper-sandbox ... (4 actions running)
+[1,343 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 25s processwrapper-sandbox ... (4 actions, 3 running)
+[1,344 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 26s processwrapper-sandbox ... (4 actions running)
+[1,345 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 28s processwrapper-sandbox ... (4 actions, 3 running)
+[1,346 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 30s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/google/protobuf/util/field_comparator.cc [for tool]:
+external/protobuf+/src/google/protobuf/util/field_comparator.cc: In member function 'google::protobuf::util::FieldComparator::ComparisonResult google::protobuf::util::SimpleFieldComparator::SimpleCompare(const google::protobuf::Message&, const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int, int, const google::protobuf::util::FieldContext*)':
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:77:50: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+   77 |         *field, reflection_1->GetRepeated##METHOD(message_1, field, index_1), \
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:91:7: note: in expansion of macro 'COMPARE_FIELD'
+   91 |       COMPARE_FIELD(Enum);
+      |       ^~~~~~~~~~~~~
+In file included from external/protobuf+/src/google/protobuf/util/field_comparator.cc:21:
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:78:42: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+   78 |         reflection_2->GetRepeated##METHOD(message_2, field, index_2)));       \
+      |         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:91:7: note: in expansion of macro 'COMPARE_FIELD'
+   91 |       COMPARE_FIELD(Enum);
+      |       ^~~~~~~~~~~~~
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:81:58: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+   81 |         Compare##METHOD(*field, reflection_1->Get##METHOD(message_1, field),  \
+      |                                 ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:91:7: note: in expansion of macro 'COMPARE_FIELD'
+   91 |       COMPARE_FIELD(Enum);
+      |       ^~~~~~~~~~~~~
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:82:50: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+   82 |                         reflection_2->Get##METHOD(message_2, field)));        \
+      |                         ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_comparator.cc:91:7: note: in expansion of macro 'COMPARE_FIELD'
+   91 |       COMPARE_FIELD(Enum);
+      |       ^~~~~~~~~~~~~
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+[1,347 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 31s processwrapper-sandbox ... (4 actions, 3 running)
+[1,347 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg; 32s processwrapper-sandbox ... (4 actions running)
+[1,350 / 2,221] Compiling src/core/lib/event_engine/thread_pool/thread_pool_factory.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,351 / 2,221] Compiling src/google/protobuf/util/message_differencer.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,352 / 2,221] Compiling src/google/protobuf/util/message_differencer.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,353 / 2,221] Compiling src/google/protobuf/util/message_differencer.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,354 / 2,221] Compiling src/google/protobuf/util/message_differencer.cc [for tool]; 8s processwrapper-sandbox ... (4 actions running)
+[1,355 / 2,221] Compiling src/google/protobuf/util/message_differencer.cc [for tool]; 9s processwrapper-sandbox ... (4 actions, 3 running)
+[1,361 / 2,221] Compiling src/google/protobuf/util/message_differencer.cc [for tool]; 10s processwrapper-sandbox ... (4 actions, 3 running)
+[1,369 / 2,221] Compiling src/google/protobuf/util/message_differencer.cc [for tool]; 11s processwrapper-sandbox ... (4 actions, 3 running)
+[1,377 / 2,221] Compiling src/google/protobuf/util/message_differencer.cc [for tool]; 12s processwrapper-sandbox ... (4 actions, 3 running)
+[1,385 / 2,221] Compiling src/google/protobuf/util/message_differencer.cc [for tool]; 14s processwrapper-sandbox ... (4 actions, 3 running)
+[1,390 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 12s processwrapper-sandbox ... (4 actions running)
+[1,397 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 13s processwrapper-sandbox ... (4 actions running)
+[1,403 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 14s processwrapper-sandbox ... (4 actions running)
+[1,409 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 15s processwrapper-sandbox ... (4 actions, 3 running)
+[1,415 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 16s processwrapper-sandbox ... (4 actions running)
+[1,421 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 17s processwrapper-sandbox ... (4 actions running)
+[1,425 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 18s processwrapper-sandbox ... (4 actions running)
+[1,434 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 19s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling src/lib/util/ares_iface_ips.c:
+external/c-ares+/src/lib/util/ares_iface_ips.c:140:3: warning: 'ares_iface_ips_add' defined but not used [-Wunused-function]
+  140 |   ares_iface_ips_add(ares_iface_ips_t *ips, ares_iface_ip_flags_t flags,
+      |   ^~~~~~~~~~~~~~~~~~
+[1,438 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 20s processwrapper-sandbox ... (4 actions running)
+[1,441 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 21s processwrapper-sandbox ... (4 actions running)
+[1,446 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 22s processwrapper-sandbox ... (4 actions running)
+[1,447 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 23s processwrapper-sandbox ... (4 actions running)
+[1,448 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 27s processwrapper-sandbox ... (4 actions, 3 running)
+[1,450 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 28s processwrapper-sandbox ... (4 actions running)
+[1,451 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 31s processwrapper-sandbox ... (4 actions, 3 running)
+[1,453 / 2,221] GoStdlib external/rules_go+/stdlib_/pkg [for tool]; 32s processwrapper-sandbox ... (4 actions, 3 running)
+[1,461 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_doc_comment.cc [for tool]; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,477 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_doc_comment.cc [for tool]; 2s processwrapper-sandbox ... (3 actions running)
+[1,485 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_doc_comment.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,492 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_doc_comment.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,494 / 2,221] Compiling src/core/lib/event_engine/posix_engine/timer_heap.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,501 / 2,221] Compiling src/google/protobuf/cpp_file_options.pb.cc [for tool]; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,507 / 2,221] Compiling src/google/protobuf/cpp_file_options.pb.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+[1,517 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_enum.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,525 / 2,221] Compiling src/core/util/load_file.cc; 1s processwrapper-sandbox ... (4 actions running)
+[1,538 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,552 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,554 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,569 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,585 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[1,596 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 8s processwrapper-sandbox ... (4 actions, 3 running)
+[1,597 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 9s processwrapper-sandbox ... (4 actions running)
+[1,608 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 10s processwrapper-sandbox ... (4 actions, 3 running)
+[1,619 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 11s processwrapper-sandbox ... (4 actions, 3 running)
+[1,625 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 12s processwrapper-sandbox ... (4 actions, 3 running)
+[1,629 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 14s processwrapper-sandbox ... (4 actions, 3 running)
+[1,633 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 15s processwrapper-sandbox ... (4 actions, 3 running)
+[1,638 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 16s processwrapper-sandbox ... (4 actions, 3 running)
+[1,645 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 17s processwrapper-sandbox ... (4 actions, 3 running)
+[1,652 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 18s processwrapper-sandbox ... (4 actions, 3 running)
+[1,660 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 19s processwrapper-sandbox ... (4 actions running)
+[1,665 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 20s processwrapper-sandbox ... (4 actions, 3 running)
+[1,667 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 21s processwrapper-sandbox ... (4 actions, 3 running)
+[1,669 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 23s processwrapper-sandbox ... (4 actions, 3 running)
+[1,670 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 24s processwrapper-sandbox ... (4 actions running)
+[1,671 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 27s processwrapper-sandbox ... (4 actions, 3 running)
+[1,671 / 2,221] Compiling src/google/protobuf/descriptor.cc [for tool]; 28s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling src/google/protobuf/wire_format.cc [for tool]:
+external/protobuf+/src/google/protobuf/wire_format.cc: In static member function 'static uint8_t* google::protobuf::internal::WireFormat::InternalSerializeField(const google::protobuf::FieldDescriptor*, const google::protobuf::Message&, uint8_t*, google::protobuf::io::EpsCopyOutputStream*)':
+external/protobuf+/src/google/protobuf/wire_format.cc:1377:54: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+ 1377 |                 ? message_reflection->GetRepeatedEnum(message, field, j)
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+In file included from bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/wire_format.h:29,
+                 from external/protobuf+/src/google/protobuf/wire_format.cc:12:
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/wire_format.cc:1378:46: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+ 1378 |                 : message_reflection->GetEnum(message, field);
+      |                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+external/protobuf+/src/google/protobuf/wire_format.cc: In static member function 'static size_t google::protobuf::internal::WireFormat::FieldDataOnlyByteSize(const google::protobuf::FieldDescriptor*, const google::protobuf::Message&)':
+external/protobuf+/src/google/protobuf/wire_format.cc:1714:50: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+ 1714 |               message_reflection->GetRepeatedEnum(message, field, j)->number());
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/wire_format.cc:1718:40: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+ 1718 |             message_reflection->GetEnum(message, field)->number());
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+[1,673 / 2,221] Compiling upb_generator/c/generator.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,674 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_message.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,674 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_message.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,675 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_message.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[1,676 / 2,221] Compiling src/google/protobuf/descriptor.pb.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[1,677 / 2,221] Compiling src/google/protobuf/descriptor.pb.cc [for tool]; 9s processwrapper-sandbox ... (4 actions, 3 running)
+[1,679 / 2,221] Compiling src/google/protobuf/text_format.cc [for tool]; 7s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling src/google/protobuf/text_format.cc [for tool]:
+external/protobuf+/src/google/protobuf/text_format.cc: In member function 'google::protobuf::TextFormat::ParseLocation google::protobuf::TextFormat::ParseInfoTree::GetLocation(const google::protobuf::FieldDescriptor*, int) const':
+external/protobuf+/src/google/protobuf/text_format.cc:262:26: warning: 'google::protobuf::TextFormat::ParseLocationRange google::protobuf::TextFormat::ParseInfoTree::GetLocationRange(const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetFieldLocation() [-Wdeprecated-declarations]
+  262 |   return GetLocationRange(field, index).start;
+      |          ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/text_format.cc:244:32: note: declared here
+  244 | TextFormat::ParseLocationRange TextFormat::ParseInfoTree::GetLocationRange(
+      |                                ^~~~~~~~~~
+external/protobuf+/src/google/protobuf/text_format.cc: In member function 'bool google::protobuf::TextFormat::Parser::ParserImpl::ConsumeFieldValue(google::protobuf::Message*, const google::protobuf::Reflection*, const google::protobuf::FieldDescriptor*)':
+external/protobuf+/src/google/protobuf/text_format.cc:966:37: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  966 |             reflection->Get##CPPTYPE(*message, field) &&           \
+      |             ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/text_format.cc:1086:9: note: in expansion of macro 'SET_FIELD'
+ 1086 |         SET_FIELD(Enum, enum, enum_value);
+      |         ^~~~~~~~~
+In file included from bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/text_format.h:31,
+                 from external/protobuf+/src/google/protobuf/text_format.cc:12:
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+[1,680 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_primitive_field.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,680 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_primitive_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,681 / 2,221] Compiling src/google/protobuf/descriptor_database.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,683 / 2,221] Compiling src/google/protobuf/descriptor_database.cc [for tool]; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[1,683 / 2,221] Compiling src/google/protobuf/descriptor_database.cc [for tool]; 8s processwrapper-sandbox ... (4 actions running)
+[1,685 / 2,221] Compiling src/google/protobuf/compiler/java/full/make_field_gens.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+[1,687 / 2,221] Compiling src/google/protobuf/dynamic_message.cc [for tool]; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[1,688 / 2,221] Compiling src/google/protobuf/dynamic_message.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+[1,690 / 2,221] Compiling src/google/protobuf/compiler/java/full/enum_field.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling src/google/protobuf/reflection_ops.cc [for tool]:
+external/protobuf+/src/google/protobuf/reflection_ops.cc: In static member function 'static void google::protobuf::internal::ReflectionOps::Merge(const google::protobuf::Message&, google::protobuf::Message*)':
+external/protobuf+/src/google/protobuf/reflection_ops.cc:92:56: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+   92 |         to, field, from_reflection->GetRepeated##METHOD(from, field, j)); \
+      |                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/reflection_ops.cc:103:11: note: in expansion of macro 'HANDLE_TYPE'
+  103 |           HANDLE_TYPE(ENUM, Enum);
+      |           ^~~~~~~~~~~
+In file included from bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/reflection_ops.h:18,
+                 from external/protobuf+/src/google/protobuf/reflection_ops.cc:11:
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/reflection_ops.cc:125:60: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  125 |                                from_reflection->Get##METHOD(from, field)); \
+      |                                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/reflection_ops.cc:136:9: note: in expansion of macro 'HANDLE_TYPE'
+  136 |         HANDLE_TYPE(ENUM, Enum);
+      |         ^~~~~~~~~~~
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+[1,691 / 2,221] Compiling src/google/protobuf/compiler/java/full/enum_field.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,692 / 2,221] Compiling src/google/protobuf/compiler/java/full/enum_field.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[1,693 / 2,221] Compiling src/google/protobuf/extension_set_heavy.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,695 / 2,221] Compiling src/google/protobuf/message.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+[1,696 / 2,221] Compiling src/google/protobuf/message.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,698 / 2,221] Compiling src/google/protobuf/compiler/java/full/map_field.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,699 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_source_generator_base.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,700 / 2,221] Compiling src/google/protobuf/compiler/csharp/csharp_source_generator_base.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+[1,701 / 2,221] Compiling src/google/protobuf/map_field.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+[1,702 / 2,221] Compiling src/google/protobuf/compiler/java/full/message_field.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,702 / 2,221] Compiling src/google/protobuf/compiler/java/full/message_field.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,703 / 2,221] Compiling src/google/protobuf/generated_message_reflection.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,705 / 2,221] Compiling src/google/protobuf/generated_message_reflection.cc [for tool]; 7s processwrapper-sandbox ... (4 actions running)
+[1,706 / 2,221] Compiling src/google/protobuf/generated_message_reflection.cc [for tool]; 9s processwrapper-sandbox ... (4 actions, 3 running)
+[1,706 / 2,221] Compiling src/google/protobuf/generated_message_reflection.cc [for tool]; 10s processwrapper-sandbox ... (4 actions running)
+[1,707 / 2,221] Compiling src/google/protobuf/generated_message_reflection.cc [for tool]; 11s processwrapper-sandbox ... (4 actions, 3 running)
+[1,709 / 2,221] Compiling src/google/protobuf/generated_message_tctable_gen.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,710 / 2,221] Compiling src/google/protobuf/compiler/ruby/ruby_generator.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,711 / 2,221] Compiling src/google/protobuf/compiler/ruby/ruby_generator.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,712 / 2,221] Compiling src/google/protobuf/compiler/java/full/string_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,712 / 2,221] Compiling src/google/protobuf/compiler/java/full/string_field.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,713 / 2,221] Compiling src/google/protobuf/compiler/command_line_interface.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,714 / 2,221] Compiling src/google/protobuf/compiler/command_line_interface.cc [for tool]; 7s processwrapper-sandbox ... (4 actions running)
+[1,715 / 2,221] Compiling src/google/protobuf/compiler/command_line_interface.cc [for tool]; 10s processwrapper-sandbox ... (4 actions, 3 running)
+[1,716 / 2,221] Compiling src/google/protobuf/compiler/command_line_interface.cc [for tool]; 12s processwrapper-sandbox ... (4 actions, 3 running)
+[1,717 / 2,221] Compiling src/google/protobuf/compiler/command_line_interface.cc [for tool]; 13s processwrapper-sandbox ... (4 actions running)
+[1,719 / 2,221] Compiling src/google/protobuf/compiler/java/lite/enum_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,720 / 2,221] Compiling src/google/protobuf/compiler/java/lite/enum_field.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,722 / 2,221] Compiling src/google/protobuf/compiler/cpp/enum.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,723 / 2,221] Compiling src/google/protobuf/compiler/cpp/enum.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[1,725 / 2,221] Compiling src/google/protobuf/compiler/cpp/enum.cc [for tool]; 8s processwrapper-sandbox ... (4 actions, 3 running)
+[1,727 / 2,221] Compiling src/google/protobuf/compiler/rust/accessors/map.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,728 / 2,221] Compiling src/google/protobuf/compiler/rust/accessors/map.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,730 / 2,221] Compiling src/google/protobuf/compiler/cpp/extension.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,731 / 2,221] Compiling src/google/protobuf/compiler/python/generator.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,732 / 2,221] Compiling src/google/protobuf/compiler/python/generator.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,732 / 2,221] Compiling src/google/protobuf/compiler/python/generator.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[1,733 / 2,221] Compiling src/google/protobuf/compiler/python/generator.cc [for tool]; 7s processwrapper-sandbox ... (4 actions running)
+[1,734 / 2,221] Compiling src/google/protobuf/compiler/cpp/field.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,736 / 2,221] Compiling src/google/protobuf/compiler/java/lite/message_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,737 / 2,221] Compiling src/google/protobuf/compiler/python/helpers.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,738 / 2,221] Compiling src/google/protobuf/compiler/rust/accessors/singular_message.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,740 / 2,221] Compiling src/google/protobuf/compiler/java/lite/primitive_field.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,741 / 2,221] Compiling src/google/protobuf/compiler/java/lite/primitive_field.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,743 / 2,221] Compiling src/google/protobuf/compiler/cpp/field_generators/cord_field.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[1,744 / 2,221] Compiling src/google/protobuf/compiler/java/names.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,745 / 2,221] Compiling src/google/protobuf/compiler/java/lite/string_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,745 / 2,221] Compiling src/google/protobuf/compiler/java/lite/string_field.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,747 / 2,221] Compiling src/google/protobuf/compiler/cpp/field_generators/enum_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,748 / 2,221] Compiling src/google/protobuf/compiler/java/name_resolver.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,749 / 2,221] Compiling src/google/protobuf/compiler/rust/accessors/unsupported_field.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,750 / 2,221] Compiling src/google/protobuf/compiler/java/full/extension.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+[1,751 / 2,221] Compiling src/google/protobuf/compiler/cpp/field_generators/map_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,752 / 2,221] Compiling src/google/protobuf/compiler/cpp/field_generators/map_field.cc [for tool]; 6s processwrapper-sandbox ... (3 actions running)
+[1,754 / 2,221] Compiling src/google/protobuf/compiler/java/full/generator_factory.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,755 / 2,221] Compiling src/google/protobuf/compiler/rust/upb_helpers.cc [for tool]; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,755 / 2,221] Compiling src/google/protobuf/compiler/rust/upb_helpers.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+[1,756 / 2,221] Compiling src/google/protobuf/compiler/cpp/field_generators/message_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,757 / 2,221] Compiling src/google/protobuf/compiler/cpp/field_generators/message_field.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,758 / 2,221] Compiling src/google/protobuf/compiler/java/full/message.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,759 / 2,221] Compiling src/google/protobuf/compiler/java/full/message.cc [for tool]; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[1,760 / 2,221] Compiling src/google/protobuf/compiler/java/field_common.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,761 / 2,221] Compiling src/google/protobuf/compiler/java/field_common.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[1,762 / 2,221] Compiling src/google/protobuf/compiler/cpp/field_generators/primitive_field.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,763 / 2,221] Compiling src/google/protobuf/compiler/java/full/message_builder.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,764 / 2,221] Compiling src/google/protobuf/compiler/java/full/message_builder.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,765 / 2,221] Compiling src/google/protobuf/compiler/java/full/service.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,766 / 2,221] Compiling src/google/protobuf/compiler/cpp/field_generators/string_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,767 / 2,221] Compiling src/google/protobuf/compiler/cpp/field_generators/string_field.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,768 / 2,221] Compiling src/google/protobuf/compiler/kotlin/generator.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,769 / 2,221] Compiling src/google/protobuf/compiler/java/lite/message_builder.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,770 / 2,221] Compiling upb_generator/minitable/generator.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,771 / 2,221] Compiling src/google/protobuf/compiler/cpp/field_generators/string_view_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,772 / 2,221] Compiling src/google/protobuf/compiler/kotlin/field.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,773 / 2,221] Compiling src/google/protobuf/compiler/java/lite/message.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,774 / 2,221] Compiling src/google/protobuf/compiler/objectivec/enum.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,776 / 2,221] Compiling src/google/protobuf/compiler/kotlin/file.cc [for tool]; 3s processwrapper-sandbox ... (3 actions running)
+[1,777 / 2,221] Compiling src/google/protobuf/compiler/kotlin/file.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,778 / 2,221] Compiling src/google/protobuf/compiler/objectivec/enum_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,779 / 2,221] Compiling src/google/protobuf/compiler/cpp/file.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,780 / 2,221] Compiling src/google/protobuf/compiler/cpp/file.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[1,781 / 2,221] Compiling src/google/protobuf/compiler/cpp/file.cc [for tool]; 9s processwrapper-sandbox ... (4 actions, 3 running)
+[1,782 / 2,221] Compiling src/google/protobuf/compiler/cpp/file.cc [for tool]; 10s processwrapper-sandbox ... (4 actions, 3 running)
+[1,782 / 2,221] Compiling src/google/protobuf/compiler/cpp/file.cc [for tool]; 12s processwrapper-sandbox ... (4 actions running)
+[1,783 / 2,221] Compiling src/google/protobuf/compiler/cpp/file.cc [for tool]; 13s processwrapper-sandbox ... (4 actions running)
+[1,784 / 2,221] Compiling src/google/protobuf/compiler/cpp/file.cc [for tool]; 14s processwrapper-sandbox ... (4 actions, 3 running)
+[1,785 / 2,221] Compiling src/google/protobuf/compiler/objectivec/field.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,786 / 2,221] Compiling src/google/protobuf/compiler/objectivec/field.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,787 / 2,221] Compiling src/google/protobuf/compiler/java/file.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,788 / 2,221] Compiling src/google/protobuf/compiler/cpp/generator.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,790 / 2,221] Compiling src/google/protobuf/compiler/objectivec/file.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,791 / 2,221] Compiling src/google/protobuf/compiler/objectivec/file.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,792 / 2,221] Compiling src/google/protobuf/compiler/objectivec/file.cc [for tool]; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[1,794 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,795 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,808 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,809 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[1,809 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 8s processwrapper-sandbox ... (4 actions running)
+[1,810 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 10s processwrapper-sandbox ... (4 actions, 3 running)
+[1,810 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 11s processwrapper-sandbox ... (4 actions running)
+[1,812 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 12s processwrapper-sandbox ... (4 actions, 3 running)
+[1,813 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 14s processwrapper-sandbox ... (4 actions, 3 running)
+[1,813 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 15s processwrapper-sandbox ... (4 actions running)
+[1,814 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 16s processwrapper-sandbox ... (4 actions running)
+[1,815 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 17s processwrapper-sandbox ... (4 actions running)
+[1,816 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 19s processwrapper-sandbox ... (4 actions, 3 running)
+[1,816 / 2,221] Compiling src/google/protobuf/compiler/cpp/message.cc [for tool]; 21s processwrapper-sandbox ... (4 actions running)
+[1,819 / 2,221] Compiling src/google/protobuf/compiler/rust/extension.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,820 / 2,221] Compiling src/google/protobuf/compiler/rust/extension.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,821 / 2,221] Compiling src/google/protobuf/compiler/cpp/message_layout_helper.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+[1,822 / 2,221] Compiling src/google/protobuf/compiler/objectivec/message.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,823 / 2,221] Compiling src/google/protobuf/compiler/objectivec/message.cc [for tool]; 7s processwrapper-sandbox ... (4 actions running)
+[1,825 / 2,221] Compiling src/google/protobuf/compiler/cpp/namespace_printer.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,826 / 2,221] Compiling src/google/protobuf/compiler/objectivec/oneof.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,827 / 2,221] Compiling src/google/protobuf/compiler/objectivec/oneof.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,828 / 2,221] Compiling src/google/protobuf/compiler/objectivec/message_field.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,829 / 2,221] Compiling src/google/protobuf/compiler/cpp/parse_function_generator.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,830 / 2,221] Compiling src/google/protobuf/compiler/cpp/parse_function_generator.cc [for tool]; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[1,833 / 2,221] Compiling upb_generator/c/generator.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,836 / 2,221] Compiling upb_generator/c/generator.cc [for tool]; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,839 / 2,221] Compiling src/google/protobuf/compiler/cpp/service.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,844 / 2,221] Compiling src/google/protobuf/compiler/cpp/service.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,850 / 2,221] Compiling src/google/protobuf/compiler/cpp/service.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,864 / 2,221] Compiling upb_generator/common.cc [for tool]; 0s processwrapper-sandbox ... (4 actions, 3 running)
+[1,865 / 2,221] Compiling upb_generator/file_layout.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,867 / 2,221] Compiling src/google/protobuf/util/field_mask_util.cc; 3s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling src/google/protobuf/util/field_mask_util.cc:
+external/protobuf+/src/google/protobuf/util/field_mask_util.cc: In member function 'void google::protobuf::util::{anonymous}::FieldMaskTree::MergeMessage(const Node*, const google::protobuf::Message&, const google::protobuf::util::FieldMaskUtil::MergeOptions&, google::protobuf::Message*)':
+external/protobuf+/src/google/protobuf/util/field_mask_util.cc:512:59: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  512 |           destination, field, source_reflection->Get##Name(source, field)); \
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_mask_util.cc:525:9: note: in expansion of macro 'COPY_VALUE'
+  525 |         COPY_VALUE(ENUM, Enum)
+      |         ^~~~~~~~~~
+In file included from bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/field_mask_proto/google/protobuf/field_mask.pb.h:28,
+                 from bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/util/_virtual_includes/field_mask_util/google/protobuf/util/field_mask_util.h:17,
+                 from external/protobuf+/src/google/protobuf/util/field_mask_util.cc:8:
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+external/protobuf+/src/google/protobuf/util/field_mask_util.cc:550:47: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  550 |           source_reflection->GetRepeated##Name(source, field, i)); \
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_mask_util.cc:561:9: note: in expansion of macro 'COPY_REPEATED_VALUE'
+  561 |         COPY_REPEATED_VALUE(ENUM, Enum)
+      |         ^~~~~~~~~~~~~~~~~~~
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+[1,874 / 2,221] Compiling src/google/protobuf/compiler/rust/generator.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[1,897 / 2,221] Compiling src/google/protobuf/compiler/rust/generator.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[1,903 / 2,221] Compiling src/google/protobuf/compiler/rust/generator.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[1,914 / 2,221] Compiling src/google/protobuf/compiler/rust/generator.cc [for tool]; 8s processwrapper-sandbox ... (4 actions running)
+[1,923 / 2,221] Compiling src/google/protobuf/util/type_resolver_util.cc; 3s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling src/google/protobuf/util/type_resolver_util.cc:
+external/protobuf+/src/google/protobuf/util/type_resolver_util.cc: In function 'void google::protobuf::util::{anonymous}::ConvertOptionField(const google::protobuf::Reflection*, const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int, google::protobuf::Option*)':
+external/protobuf+/src/google/protobuf/util/type_resolver_util.cc:138:44: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  138 |               ? reflection->GetRepeatedEnum(options, field, index)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+In file included from bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/type_proto/google/protobuf/type.pb.h:28,
+                 from bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/util/_virtual_includes/type_resolver/google/protobuf/util/type_resolver_util.h:13,
+                 from external/protobuf+/src/google/protobuf/util/type_resolver_util.cc:8:
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/type_resolver_util.cc:139:36: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  139 |               : reflection->GetEnum(options, field);
+      |                 ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+bazel-out/k8-fastbuild/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+[1,928 / 2,221] Compiling external/protobuf+/src/google/protobuf/_virtual_imports/any_proto/google/protobuf/any.pb.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,933 / 2,221] Compiling src/google/protobuf/json/internal/untyped_message.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,933 / 2,221] Compiling src/google/protobuf/json/internal/untyped_message.cc; 3s processwrapper-sandbox ... (4 actions running)
+[1,937 / 2,221] Compiling src/google/protobuf/json/internal/untyped_message.cc; 4s processwrapper-sandbox ... (4 actions running)
+[1,942 / 2,221] Compiling src/google/protobuf/json/internal/parser.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,944 / 2,221] Compiling src/google/protobuf/json/internal/parser.cc [for tool]; 7s processwrapper-sandbox ... (4 actions running)
+[1,945 / 2,221] Compiling src/google/protobuf/json/internal/parser.cc [for tool]; 8s processwrapper-sandbox ... (4 actions, 3 running)
+[1,948 / 2,221] Compiling src/google/protobuf/json/internal/parser.cc [for tool]; 10s processwrapper-sandbox ... (4 actions running)
+[1,950 / 2,221] Compiling src/google/protobuf/json/internal/parser.cc; 5s processwrapper-sandbox ... (4 actions running)
+[1,951 / 2,221] Compiling src/google/protobuf/json/internal/parser.cc; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[1,952 / 2,221] Compiling src/google/protobuf/util/field_mask_util.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/google/protobuf/util/field_mask_util.cc [for tool]:
+external/protobuf+/src/google/protobuf/util/field_mask_util.cc: In member function 'void google::protobuf::util::{anonymous}::FieldMaskTree::MergeMessage(const Node*, const google::protobuf::Message&, const google::protobuf::util::FieldMaskUtil::MergeOptions&, google::protobuf::Message*)':
+external/protobuf+/src/google/protobuf/util/field_mask_util.cc:512:59: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  512 |           destination, field, source_reflection->Get##Name(source, field)); \
+      |                               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_mask_util.cc:525:9: note: in expansion of macro 'COPY_VALUE'
+  525 |         COPY_VALUE(ENUM, Enum)
+      |         ^~~~~~~~~~
+In file included from bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/field_mask_proto/google/protobuf/field_mask.pb.h:28,
+                 from bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/util/_virtual_includes/field_mask_util/google/protobuf/util/field_mask_util.h:17,
+                 from external/protobuf+/src/google/protobuf/util/field_mask_util.cc:8:
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+external/protobuf+/src/google/protobuf/util/field_mask_util.cc:550:47: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  550 |           source_reflection->GetRepeated##Name(source, field, i)); \
+      |           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/field_mask_util.cc:561:9: note: in expansion of macro 'COPY_REPEATED_VALUE'
+  561 |         COPY_REPEATED_VALUE(ENUM, Enum)
+      |         ^~~~~~~~~~~~~~~~~~~
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+[1,955 / 2,221] Compiling src/google/protobuf/json/internal/unparser.cc; 1s processwrapper-sandbox ... (4 actions running)
+[1,957 / 2,221] Compiling src/google/protobuf/json/internal/unparser.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[1,971 / 2,221] Compiling src/google/protobuf/json/internal/unparser.cc; 4s processwrapper-sandbox ... (4 actions running)
+[1,972 / 2,221] Compiling src/google/protobuf/json/internal/unparser.cc; 6s processwrapper-sandbox ... (4 actions running)
+[1,976 / 2,221] Compiling src/google/protobuf/json/internal/unparser.cc [for tool]; 7s processwrapper-sandbox ... (4 actions running)
+[1,977 / 2,221] Compiling src/google/protobuf/json/internal/unparser.cc [for tool]; 8s processwrapper-sandbox ... (4 actions, 3 running)
+[1,979 / 2,221] Compiling src/google/protobuf/json/json.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[1,985 / 2,221] Compiling upb_generator/reflection/header.cc [for tool]; 2s processwrapper-sandbox ... (4 actions running)
+[1,989 / 2,221] Compiling upb_generator/reflection/header.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+[1,992 / 2,221] Compiling src/google/protobuf/json/internal/untyped_message.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[1,995 / 2,221] Compiling src/google/protobuf/json/internal/untyped_message.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[1,999 / 2,221] Compiling src/compiler/cpp_plugin.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[2,002 / 2,221] Compiling upb_generator/reflection/source.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,005 / 2,221] Compiling upb_generator/reflection/source.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[2,011 / 2,221] Compiling src/google/protobuf/util/type_resolver_util.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/google/protobuf/util/type_resolver_util.cc [for tool]:
+external/protobuf+/src/google/protobuf/util/type_resolver_util.cc: In function 'void google::protobuf::util::{anonymous}::ConvertOptionField(const google::protobuf::Reflection*, const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int, google::protobuf::Option*)':
+external/protobuf+/src/google/protobuf/util/type_resolver_util.cc:138:44: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetRepeatedEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*, int) const' is deprecated: Please use GetRepeatedEnumValue() instead. GetRepeatedEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  138 |               ? reflection->GetRepeatedEnum(options, field, index)
+      |                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~
+In file included from bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/type_proto/google/protobuf/type.pb.h:28,
+                 from bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/util/_virtual_includes/type_resolver/google/protobuf/util/type_resolver_util.h:13,
+                 from external/protobuf+/src/google/protobuf/util/type_resolver_util.cc:8:
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:826:3: note: declared here
+  826 |   GetRepeatedEnum(const Message& message, const FieldDescriptor* field,
+      |   ^~~~~~~~~~~~~~~
+external/protobuf+/src/google/protobuf/util/type_resolver_util.cc:139:36: warning: 'const google::protobuf::EnumValueDescriptor* google::protobuf::Reflection::GetEnum(const google::protobuf::Message&, const google::protobuf::FieldDescriptor*) const' is deprecated: Please use GetEnumValue() instead. GetEnum() will be removed in Q1 2027. [-Wdeprecated-declarations]
+  139 |               : reflection->GetEnum(options, field);
+      |                 ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~
+bazel-out/k8-opt-exec/bin/external/protobuf+/src/google/protobuf/_virtual_includes/protobuf/google/protobuf/message.h:639:3: note: declared here
+  639 |   GetEnum(const Message& message, const FieldDescriptor* field) const;
+      |   ^~~~~~~
+[2,014 / 2,221] Compiling src/compiler/cpp_generator.cc [for tool]; 3s processwrapper-sandbox ... (4 actions running)
+[2,016 / 2,221] Compiling src/compiler/cpp_generator.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[2,019 / 2,221] Compiling src/compiler/cpp_generator.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[2,022 / 2,221] Compiling external/protobuf+/src/google/protobuf/_virtual_imports/type_proto/google/protobuf/type.pb.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,025 / 2,221] Compiling upb_generator/file_layout.cc [for tool]; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[2,028 / 2,221] Compiling src/compiler/csharp_generator.cc [for tool]; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[2,036 / 2,221] Compiling src/compiler/csharp_generator.cc [for tool]; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,043 / 2,221] Compiling src/compiler/csharp_generator.cc [for tool]; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[2,043 / 2,221] Compiling src/compiler/csharp_generator.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[2,044 / 2,221] Compiling src/compiler/ruby_generator.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[2,045 / 2,221] Compiling src/compiler/ruby_generator.cc [for tool]; 5s processwrapper-sandbox ... (4 actions running)
+[2,046 / 2,221] Compiling src/compiler/python_generator.cc [for tool]; 6s processwrapper-sandbox ... (4 actions running)
+[2,047 / 2,221] Compiling src/compiler/node_generator.cc [for tool]; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[2,050 / 2,221] Compiling src/compiler/php_generator.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[2,052 / 2,221] Compiling src/compiler/objective_c_generator.cc [for tool]; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[2,052 / 2,221] Compiling src/compiler/objective_c_generator.cc [for tool]; 4s processwrapper-sandbox ... (4 actions running)
+[2,056 / 2,221] Compiling src/core/lib/iomgr/combiner.cc; 0s processwrapper-sandbox ... (4 actions running)
+[2,059 / 2,221] Compiling src/core/lib/iomgr/combiner.cc; 1s processwrapper-sandbox ... (4 actions running)
+[2,060 / 2,221] Compiling src/core/lib/iomgr/combiner.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/core/call/call_state.cc:
+In file included from external/grpc+/src/core/call/call_state.cc:15:
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ClientToServerPushStateString(ClientToServerPushState)':
+external/grpc+/src/core/call/call_state.h:191:3: warning: control reaches end of non-void function [-Wreturn-type]
+  191 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ClientToServerPullStateString(ClientToServerPullState)':
+external/grpc+/src/core/call/call_state.h:161:3: warning: control reaches end of non-void function [-Wreturn-type]
+  161 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerToClientPullStateString(ServerToClientPullState)':
+external/grpc+/src/core/call/call_state.h:244:3: warning: control reaches end of non-void function [-Wreturn-type]
+  244 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerToClientPushStateString(ServerToClientPushState)':
+external/grpc+/src/core/call/call_state.h:284:3: warning: control reaches end of non-void function [-Wreturn-type]
+  284 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerTrailingMetadataStateString(ServerTrailingMetadataState)':
+external/grpc+/src/core/call/call_state.h:314:3: warning: control reaches end of non-void function [-Wreturn-type]
+  314 |   }
+      |   ^
+[2,063 / 2,221] Compiling src/core/lib/surface/byte_buffer.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[2,064 / 2,221] Compiling src/core/lib/iomgr/exec_ctx.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[2,066 / 2,221] Compiling src/core/lib/transport/connectivity_state.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[2,068 / 2,221] Compiling src/core/lib/surface/byte_buffer_reader.cc; 2s processwrapper-sandbox ... (4 actions running)
+[2,069 / 2,221] Compiling src/core/lib/iomgr/timer.cc; 2s processwrapper-sandbox ... (4 actions running)
+[2,071 / 2,221] Compiling src/core/channelz/channel_trace.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,073 / 2,221] Compiling src/core/lib/iomgr/timer_generic.cc; 2s processwrapper-sandbox ... (4 actions running)
+[2,075 / 2,221] Compiling src/core/lib/compression/compression_internal.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[2,077 / 2,221] Compiling src/core/channelz/channelz.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,078 / 2,221] Compiling src/core/channelz/channelz.cc; 4s processwrapper-sandbox ... (4 actions running)
+[2,080 / 2,221] Compiling src/core/channelz/channelz.cc; 5s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling src/core/channelz/channelz.cc:
+In file included from external/grpc+/src/core/channelz/channelz.cc:19:
+external/grpc+/src/core/channelz/channelz.h: In static member function 'static absl::lts_20250814::string_view grpc_core::channelz::BaseNode::EntityTypeToKind(EntityType)':
+external/grpc+/src/core/channelz/channelz.h:186:3: warning: control reaches end of non-void function [-Wreturn-type]
+  186 |   }
+      |   ^
+[2,083 / 2,221] Compiling src/core/handshaker/proxy_mapper_registry.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+[2,084 / 2,221] Compiling src/core/lib/event_engine/tcp_socket_utils.cc; 1s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/core/lib/event_engine/tcp_socket_utils.cc:
+external/grpc+/src/core/lib/event_engine/tcp_socket_utils.cc: In function 'bool grpc_event_engine::experimental::ResolvedAddressToV4Mapped(const EventEngine::ResolvedAddress&, EventEngine::ResolvedAddress*)':
+external/grpc+/src/core/lib/event_engine/tcp_socket_utils.cc:225:11: warning: 'void* memset(void*, int, size_t)' clearing an object of non-trivial type 'class grpc_event_engine::experimental::EventEngine::ResolvedAddress'; use assignment or value-initialization instead [-Wclass-memaccess]
+  225 |     memset(resolved_addr6_out, 0, sizeof(*resolved_addr6_out));
+      |     ~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from external/grpc+/src/core/lib/event_engine/tcp_socket_utils.h:17,
+                 from external/grpc+/src/core/lib/event_engine/tcp_socket_utils.cc:14:
+external/grpc+/include/grpc/event_engine/event_engine.h:160:9: note: 'class grpc_event_engine::experimental::EventEngine::ResolvedAddress' declared here
+  160 |   class ResolvedAddress {
+      |         ^~~~~~~~~~~~~~~
+[2,089 / 2,221] Compiling src/core/channelz/channelz_registry.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,090 / 2,221] Compiling src/core/service_config/service_config_parser.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[2,094 / 2,221] Compiling src/core/telemetry/instrument.cc; 1s processwrapper-sandbox ... (4 actions running)
+[2,097 / 2,221] Compiling src/core/telemetry/instrument.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,097 / 2,221] Compiling src/core/telemetry/instrument.cc; 4s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling src/core/lib/resource_quota/memory_quota.cc:
+In file included from external/grpc+/src/core/lib/resource_quota/memory_quota.cc:36:
+external/grpc+/src/core/lib/promise/loop.h:215:31: warning: attribute ignored in declaration of 'union grpc_core::Loop<F, kYield>::<unnamed>' [-Wattributes]
+  215 |   GPR_NO_UNIQUE_ADDRESS union {
+      |                               ^
+external/grpc+/src/core/lib/promise/loop.h:215:31: note: attribute for 'union grpc_core::Loop<F, kYield>::<unnamed>' must follow the 'union' keyword
+[2,098 / 2,221] Compiling src/core/telemetry/instrument.cc; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[2,100 / 2,221] Compiling src/core/telemetry/instrument.cc; 7s processwrapper-sandbox ... (4 actions running)
+[2,102 / 2,221] Compiling src/core/lib/resource_quota/arena.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[2,102 / 2,221] Compiling src/core/lib/resource_quota/arena.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,104 / 2,221] Compiling src/core/lib/event_engine/posix_engine/posix_interface_posix.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,105 / 2,221] Compiling src/core/lib/event_engine/posix_engine/posix_interface_posix.cc; 4s processwrapper-sandbox ... (4 actions running)
+[2,107 / 2,221] Compiling src/core/call/message.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,110 / 2,221] Compiling src/core/lib/promise/party.cc; 1s processwrapper-sandbox ... (4 actions running)
+[2,111 / 2,221] Compiling src/core/lib/promise/party.cc; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[2,113 / 2,221] Compiling src/core/lib/promise/party.cc; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[2,114 / 2,221] Compiling src/core/lib/event_engine/posix_engine/internal_errqueue.cc; 2s processwrapper-sandbox ... (4 actions running)
+[2,115 / 2,221] Compiling src/core/call/metadata.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,117 / 2,221] Compiling src/core/telemetry/metrics.cc; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[2,118 / 2,221] Compiling src/core/lib/event_engine/posix_engine/traced_buffer_list.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,119 / 2,221] Compiling src/core/call/call_filters.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,120 / 2,221] Compiling src/core/call/call_filters.cc; 5s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/core/call/call_filters.cc:
+In file included from external/grpc+/src/core/call/call_filters.h:26,
+                 from external/grpc+/src/core/call/call_filters.cc:15:
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerToClientPullStateString(ServerToClientPullState)':
+external/grpc+/src/core/call/call_state.h:244:3: warning: control reaches end of non-void function [-Wreturn-type]
+  244 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerTrailingMetadataStateString(ServerTrailingMetadataState)':
+external/grpc+/src/core/call/call_state.h:314:3: warning: control reaches end of non-void function [-Wreturn-type]
+  314 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerToClientPushStateString(ServerToClientPushState)':
+external/grpc+/src/core/call/call_state.h:284:3: warning: control reaches end of non-void function [-Wreturn-type]
+  284 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ClientToServerPushStateString(ClientToServerPushState)':
+external/grpc+/src/core/call/call_state.h:191:3: warning: control reaches end of non-void function [-Wreturn-type]
+  191 |   }
+      |   ^
+INFO: From Compiling src/core/lib/event_engine/ares_resolver.cc:
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc: In function 'absl::lts_20250814::Status grpc_event_engine::experimental::{anonymous}::SetRequestDNSServer(absl::lts_20250814::string_view, ares_channeldata**)':
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc:199:38: warning: 'int ares_set_servers_ports(ares_channel_t*, const ares_addr_port_node*)' is deprecated: Use ares_set_servers_ports_csv instead [-Wdeprecated-declarations]
+  199 |   int status = ares_set_servers_ports(*channel, &dns_server_addr);
+      |                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from external/grpc+/src/core/lib/event_engine/ares_resolver.h:28,
+                 from external/grpc+/src/core/lib/event_engine/ares_resolver.cc:14:
+external/c-ares+/include/ares.h:1173:20: note: declared here
+ 1173 | int                ares_set_servers_ports(ares_channel_t                   *channel,
+      |                    ^~~~~~~~~~~~~~~~~~~~~~
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc: In member function 'virtual void grpc_event_engine::experimental::AresResolver::LookupHostname(grpc_event_engine::experimental::EventEngine::DNSResolver::LookupHostnameCallback, absl::lts_20250814::string_view, absl::lts_20250814::string_view)':
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc:408:23: warning: 'void ares_gethostbyname(ares_channel_t*, const char*, int, ares_host_callback, void*)' is deprecated: Use ares_getaddrinfo instead [-Wdeprecated-declarations]
+  408 |     ares_gethostbyname(channel_, std::string(host).c_str(), AF_INET,
+      |     ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  409 |                        &AresResolver::OnHostbynameDoneLocked, resolver_arg);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/c-ares+/include/ares.h:879:58: note: declared here
+  879 | CARES_EXTERN CARES_DEPRECATED_FOR(ares_getaddrinfo) void ares_gethostbyname(
+      |                                                          ^~~~~~~~~~~~~~~~~~
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc:410:23: warning: 'void ares_gethostbyname(ares_channel_t*, const char*, int, ares_host_callback, void*)' is deprecated: Use ares_getaddrinfo instead [-Wdeprecated-declarations]
+  410 |     ares_gethostbyname(channel_, std::string(host).c_str(), AF_INET6,
+      |     ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  411 |                        &AresResolver::OnHostbynameDoneLocked, resolver_arg);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/c-ares+/include/ares.h:879:58: note: declared here
+  879 | CARES_EXTERN CARES_DEPRECATED_FOR(ares_getaddrinfo) void ares_gethostbyname(
+      |                                                          ^~~~~~~~~~~~~~~~~~
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc:414:23: warning: 'void ares_gethostbyname(ares_channel_t*, const char*, int, ares_host_callback, void*)' is deprecated: Use ares_getaddrinfo instead [-Wdeprecated-declarations]
+  414 |     ares_gethostbyname(channel_, std::string(host).c_str(), AF_INET,
+      |     ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  415 |                        &AresResolver::OnHostbynameDoneLocked, resolver_arg);
+      |                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/c-ares+/include/ares.h:879:58: note: declared here
+  879 | CARES_EXTERN CARES_DEPRECATED_FOR(ares_getaddrinfo) void ares_gethostbyname(
+      |                                                          ^~~~~~~~~~~~~~~~~~
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc: In member function 'virtual void grpc_event_engine::experimental::AresResolver::LookupSRV(grpc_event_engine::experimental::EventEngine::DNSResolver::LookupSRVCallback, absl::lts_20250814::string_view)':
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc:451:13: warning: 'void ares_query(ares_channel_t*, const char*, int, int, ares_callback, void*)' is deprecated: Use ares_query_dnsrec instead [-Wdeprecated-declarations]
+  451 |   ares_query(channel_, std::string(host).c_str(), ns_c_in, ns_t_srv,
+      |   ~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  452 |              &AresResolver::OnSRVQueryDoneLocked, resolver_arg);
+      |              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/c-ares+/include/ares.h:836:59: note: declared here
+  836 | CARES_EXTERN CARES_DEPRECATED_FOR(ares_query_dnsrec) void ares_query(
+      |                                                           ^~~~~~~~~~
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc: In member function 'virtual void grpc_event_engine::experimental::AresResolver::LookupTXT(grpc_event_engine::experimental::EventEngine::DNSResolver::LookupTXTCallback, absl::lts_20250814::string_view)':
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc:487:14: warning: 'void ares_search(ares_channel_t*, const char*, int, int, ares_callback, void*)' is deprecated: Use ares_search_dnsrec instead [-Wdeprecated-declarations]
+  487 |   ares_search(channel_, std::string(host).c_str(), ns_c_in, ns_t_txt,
+      |   ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  488 |               &AresResolver::OnTXTDoneLocked, resolver_arg);
+      |               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/c-ares+/include/ares.h:859:60: note: declared here
+  859 | CARES_EXTERN CARES_DEPRECATED_FOR(ares_search_dnsrec) void ares_search(
+      |                                                            ^~~~~~~~~~~
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc: In member function 'void grpc_event_engine::experimental::AresResolver::CheckSocketsLocked()':
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc:497:37: warning: 'int ares_getsock(const ares_channel_t*, ares_socket_t*, int)' is deprecated: Use ARES_OPT_EVENT_THREAD or ARES_OPT_SOCK_STATE_CB instead [-Wdeprecated-declarations]
+  497 |     int socks_bitmask = ares_getsock(channel_, socks, ARES_GETSOCK_MAXNUM);
+      |                         ~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+external/c-ares+/include/ares.h:903:31: note: declared here
+  903 |   ARES_OPT_SOCK_STATE_CB) int ares_getsock(const ares_channel_t *channel,
+      |                               ^~~~~~~~~~~~
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc: In static member function 'static void grpc_event_engine::experimental::AresResolver::OnSRVQueryDoneLocked(void*, int, int, unsigned char*, int)':
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc:811:32: warning: 'int ares_parse_srv_reply(const unsigned char*, int, ares_srv_reply**)' is deprecated: Use ares_dns_parse instead [-Wdeprecated-declarations]
+  811 |   status = ares_parse_srv_reply(abuf, alen, &reply);
+      |            ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~
+external/c-ares+/include/ares.h:1116:55: note: declared here
+ 1116 | CARES_EXTERN CARES_DEPRECATED_FOR(ares_dns_parse) int ares_parse_srv_reply(
+      |                                                       ^~~~~~~~~~~~~~~~~~~~
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc: In static member function 'static void grpc_event_engine::experimental::AresResolver::OnTXTDoneLocked(void*, int, int, unsigned char*, int)':
+external/grpc+/src/core/lib/event_engine/ares_resolver.cc:875:36: warning: 'int ares_parse_txt_reply_ext(const unsigned char*, int, ares_txt_ext**)' is deprecated: Use ares_dns_parse instead [-Wdeprecated-declarations]
+  875 |   status = ares_parse_txt_reply_ext(buf, len, &reply);
+      |            ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+external/c-ares+/include/ares.h:1125:55: note: declared here
+ 1125 | CARES_EXTERN CARES_DEPRECATED_FOR(ares_dns_parse) int ares_parse_txt_reply_ext(
+      |                                                       ^~~~~~~~~~~~~~~~~~~~~~~~
+[2,122 / 2,221] Compiling src/core/lib/event_engine/posix_engine/posix_endpoint.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,124 / 2,221] Compiling src/core/lib/event_engine/posix_engine/posix_endpoint.cc; 5s processwrapper-sandbox ... (4 actions running)
+[2,125 / 2,221] Compiling src/core/load_balancing/lb_policy_registry.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,127 / 2,221] Compiling src/core/call/call_spine.cc; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[2,127 / 2,221] Compiling src/core/call/call_spine.cc; 6s processwrapper-sandbox ... (4 actions running)
+[2,128 / 2,221] Compiling src/core/call/call_spine.cc; 7s processwrapper-sandbox ... (4 actions running)
+[2,129 / 2,221] Compiling src/core/call/call_spine.cc; 8s processwrapper-sandbox ... (4 actions, 3 running)
+[2,130 / 2,221] Compiling src/core/call/call_spine.cc; 9s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/core/call/call_spine.cc:
+In file included from external/grpc+/src/core/lib/promise/activity.h:30,
+                 from external/grpc+/src/core/lib/resource_quota/memory_quota.h:39,
+                 from external/grpc+/src/core/lib/resource_quota/arena.h:39,
+                 from external/grpc+/src/core/call/call_arena_allocator.h:24,
+                 from external/grpc+/src/core/call/call_spine.h:23,
+                 from external/grpc+/src/core/call/call_spine.cc:15:
+external/grpc+/src/core/lib/promise/detail/promise_factory.h:132:5: warning: 'always_inline' function might not be inlinable [-Wattributes]
+  132 |     PromiseFactoryImpl(Token, F&& f, A&& arg) {
+      |     ^~~~~~~~~~~~~~~~~~
+external/grpc+/src/core/lib/promise/detail/promise_factory.h:132:5: warning: 'always_inline' function might not be inlinable [-Wattributes]
+external/grpc+/src/core/lib/promise/detail/promise_factory.h:132:5: warning: 'always_inline' function might not be inlinable [-Wattributes]
+In file included from external/grpc+/src/core/call/call_filters.h:26,
+                 from external/grpc+/src/core/call/call_spine.h:24:
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerTrailingMetadataStateString(ServerTrailingMetadataState)':
+external/grpc+/src/core/call/call_state.h:314:3: warning: control reaches end of non-void function [-Wreturn-type]
+  314 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ClientToServerPullStateString(ClientToServerPullState)':
+external/grpc+/src/core/call/call_state.h:161:3: warning: control reaches end of non-void function [-Wreturn-type]
+  161 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ClientToServerPushStateString(ClientToServerPushState)':
+external/grpc+/src/core/call/call_state.h:191:3: warning: control reaches end of non-void function [-Wreturn-type]
+  191 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerToClientPullStateString(ServerToClientPullState)':
+external/grpc+/src/core/call/call_state.h:244:3: warning: control reaches end of non-void function [-Wreturn-type]
+  244 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerToClientPushStateString(ServerToClientPushState)':
+external/grpc+/src/core/call/call_state.h:284:3: warning: control reaches end of non-void function [-Wreturn-type]
+  284 |   }
+      |   ^
+[2,131 / 2,221] Compiling src/core/call/interception_chain.cc; 4s processwrapper-sandbox ... (4 actions running)
+[2,132 / 2,221] Compiling src/core/call/interception_chain.cc; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[2,133 / 2,221] Compiling src/core/call/interception_chain.cc; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[2,135 / 2,221] Compiling src/core/lib/surface/channel_init.cc; 2s processwrapper-sandbox ... (4 actions running)
+[2,136 / 2,221] Compiling src/core/lib/surface/channel_init.cc; 6s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/core/lib/event_engine/posix_engine/posix_engine.cc:
+In file included from external/grpc+/src/core/lib/event_engine/posix_engine/posix_engine.cc:36:
+external/grpc+/src/core/lib/event_engine/posix_engine/grpc_polled_fd_posix.h: In member function 'virtual void grpc_event_engine::experimental::GrpcPolledFdFactoryPosix::ConfigureAresChannelLocked(ares_channel)':
+external/grpc+/src/core/lib/event_engine/posix_engine/grpc_polled_fd_posix.h:129:30: warning: 'void ares_set_socket_functions(ares_channel_t*, const ares_socket_functions*, void*)' is deprecated: Use ares_set_socket_functions_ex instead [-Wdeprecated-declarations]
+  129 |     ares_set_socket_functions(channel, &kSockFuncs, this);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from external/grpc+/src/core/lib/event_engine/ares_resolver.h:28,
+                 from external/grpc+/src/core/lib/event_engine/posix_engine/posix_engine.h:30,
+                 from external/grpc+/src/core/lib/event_engine/posix_engine/posix_engine.cc:14:
+external/c-ares+/include/ares.h:571:38: note: declared here
+  571 |   ares_set_socket_functions_ex) void ares_set_socket_functions(ares_channel_t
+      |                                      ^~~~~~~~~~~~~~~~~~~~~~~~~
+[2,137 / 2,221] Compiling src/core/lib/surface/channel_init.cc; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[2,138 / 2,221] Compiling src/core/config/core_configuration.cc; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[2,139 / 2,221] Compiling src/core/lib/event_engine/posix_engine/event_poller_posix_default.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,143 / 2,221] Compiling src/core/lib/event_engine/default_event_engine.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,144 / 2,221] Compiling src/core/lib/event_engine/default_event_engine.cc; 4s processwrapper-sandbox ... (4 actions, 3 running)
+[2,144 / 2,221] Compiling src/core/lib/event_engine/default_event_engine.cc; 6s processwrapper-sandbox ... (4 actions running)
+[2,147 / 2,221] Compiling src/core/call/client_call.cc; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[2,149 / 2,221] Compiling src/core/call/client_call.cc; 8s processwrapper-sandbox ... (4 actions running)
+[2,155 / 2,221] Compiling src/core/call/client_call.cc; 9s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/core/call/client_call.cc:
+In file included from external/grpc+/src/core/call/call_filters.h:26,
+                 from external/grpc+/src/core/call/call_spine.h:24,
+                 from external/grpc+/src/core/call/call_destination.h:20,
+                 from external/grpc+/src/core/lib/transport/transport.h:36,
+                 from external/grpc+/src/core/lib/channel/channel_stack.h:63,
+                 from external/grpc+/src/core/lib/surface/call.h:32,
+                 from external/grpc+/src/core/call/client_call.h:43,
+                 from external/grpc+/src/core/call/client_call.cc:15:
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerToClientPullStateString(ServerToClientPullState)':
+external/grpc+/src/core/call/call_state.h:244:3: warning: control reaches end of non-void function [-Wreturn-type]
+  244 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerToClientPushStateString(ServerToClientPushState)':
+external/grpc+/src/core/call/call_state.h:284:3: warning: control reaches end of non-void function [-Wreturn-type]
+  284 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ClientToServerPushStateString(ClientToServerPushState)':
+external/grpc+/src/core/call/call_state.h:191:3: warning: control reaches end of non-void function [-Wreturn-type]
+  191 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerTrailingMetadataStateString(ServerTrailingMetadataState)':
+external/grpc+/src/core/call/call_state.h:314:3: warning: control reaches end of non-void function [-Wreturn-type]
+  314 |   }
+      |   ^
+[2,156 / 2,221] Compiling src/core/lib/iomgr/tcp_server_utils_posix_ifaddrs.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[2,156 / 2,221] Compiling src/core/lib/iomgr/tcp_server_utils_posix_ifaddrs.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,158 / 2,221] Compiling src/core/lib/iomgr/tcp_server_posix.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,159 / 2,221] Compiling src/core/lib/iomgr/tcp_server_posix.cc; 5s processwrapper-sandbox ... (4 actions, 3 running)
+[2,160 / 2,221] Compiling src/core/lib/iomgr/tcp_server_posix.cc; 6s processwrapper-sandbox ... (4 actions running)
+[2,163 / 2,221] Compiling src/core/call/server_call.cc; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[2,163 / 2,221] Compiling src/core/call/server_call.cc; 8s processwrapper-sandbox ... (4 actions running)
+[2,166 / 2,221] Compiling src/core/call/server_call.cc; 10s processwrapper-sandbox ... (4 actions, 3 running)
+INFO: From Compiling src/core/call/server_call.cc:
+In file included from external/grpc+/src/core/call/call_filters.h:26,
+                 from external/grpc+/src/core/call/call_spine.h:24,
+                 from external/grpc+/src/core/call/call_destination.h:20,
+                 from external/grpc+/src/core/lib/transport/transport.h:36,
+                 from external/grpc+/src/core/lib/channel/channel_stack.h:63,
+                 from external/grpc+/src/core/lib/surface/call.h:32,
+                 from external/grpc+/src/core/call/server_call.h:46,
+                 from external/grpc+/src/core/call/server_call.cc:15:
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ClientToServerPullStateString(ClientToServerPullState)':
+external/grpc+/src/core/call/call_state.h:161:3: warning: control reaches end of non-void function [-Wreturn-type]
+  161 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ClientToServerPushStateString(ClientToServerPushState)':
+external/grpc+/src/core/call/call_state.h:191:3: warning: control reaches end of non-void function [-Wreturn-type]
+  191 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerTrailingMetadataStateString(ServerTrailingMetadataState)':
+external/grpc+/src/core/call/call_state.h:314:3: warning: control reaches end of non-void function [-Wreturn-type]
+  314 |   }
+      |   ^
+external/grpc+/src/core/call/call_state.h: In static member function 'static const char* grpc_core::CallState::ServerToClientPushStateString(ServerToClientPushState)':
+external/grpc+/src/core/call/call_state.h:284:3: warning: control reaches end of non-void function [-Wreturn-type]
+  284 |   }
+      |   ^
+[2,168 / 2,221] Compiling src/core/lib/iomgr/socket_utils_posix.cc; 2s processwrapper-sandbox ... (4 actions running)
+[2,169 / 2,221] Compiling src/core/lib/iomgr/socket_utils_linux.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[2,171 / 2,221] Compiling src/core/lib/iomgr/socket_utils_common_posix.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,175 / 2,221] Compiling src/core/lib/channel/channel_stack.cc; 2s processwrapper-sandbox ... (4 actions, 3 running)
+[2,176 / 2,221] Compiling src/core/lib/channel/channel_stack.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,179 / 2,221] Compiling src/core/lib/channel/channel_stack.cc; 4s processwrapper-sandbox ... (4 actions running)
+[2,182 / 2,221] Compiling src/core/lib/channel/channel_stack.cc; 5s processwrapper-sandbox ... (4 actions running)
+[2,183 / 2,221] Compiling src/core/lib/channel/channel_stack.cc; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[2,186 / 2,221] Compiling src/core/lib/iomgr/event_engine_shims/tcp_client.cc; 1s processwrapper-sandbox ... (4 actions running)
+[2,187 / 2,221] Compiling src/core/lib/iomgr/event_engine_shims/tcp_client.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,188 / 2,221] Compiling src/core/lib/iomgr/event_engine_shims/tcp_client.cc; 4s processwrapper-sandbox ... (4 actions running)
+[2,189 / 2,221] Compiling src/core/lib/iomgr/event_engine_shims/tcp_client.cc; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[2,196 / 2,221] Compiling src/core/lib/channel/connected_channel.cc; 1s processwrapper-sandbox ... (4 actions running)
+[2,197 / 2,221] Compiling src/core/lib/channel/connected_channel.cc; 3s processwrapper-sandbox ... (4 actions, 3 running)
+[2,199 / 2,221] Compiling src/core/lib/channel/connected_channel.cc; 4s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling src/core/lib/channel/connected_channel.cc:
+In file included from external/grpc+/src/core/lib/channel/connected_channel.cc:53:
+external/grpc+/src/core/lib/promise/loop.h:215:31: warning: attribute ignored in declaration of 'union grpc_core::Loop<F, kYield>::<unnamed>' [-Wattributes]
+  215 |   GPR_NO_UNIQUE_ADDRESS union {
+      |                               ^
+external/grpc+/src/core/lib/promise/loop.h:215:31: note: attribute for 'union grpc_core::Loop<F, kYield>::<unnamed>' must follow the 'union' keyword
+[2,200 / 2,221] Compiling src/core/lib/iomgr/endpoint_pair_posix.cc; 6s processwrapper-sandbox ... (4 actions, 3 running)
+[2,202 / 2,221] Compiling proto/greeter.grpc.pb.cc; 5s processwrapper-sandbox ... (4 actions running)
+INFO: From Compiling proto/greeter.grpc.pb.cc:
+In file included from external/grpc+/include/grpcpp/security/tls_credentials_options.h:25,
+                 from external/grpc+/include/grpcpp/security/server_credentials.h:25,
+                 from external/grpc+/include/grpcpp/server.h:32,
+                 from external/grpc+/include/grpcpp/impl/server_callback_handlers.h:25,
+                 from external/grpc+/include/grpcpp/generic/callback_generic_service.h:23,
+                 from external/grpc+/include/grpcpp/generic/async_generic_service.h:23,
+                 from bazel-out/k8-fastbuild/bin/proto/greeter.grpc.pb.h:10,
+                 from bazel-out/k8-fastbuild/bin/proto/greeter.grpc.pb.cc:6:
+external/grpc+/include/grpcpp/security/tls_certificate_provider.h:72:25: warning: 'IdentityKeyCertPair' is deprecated: Use IdentityKeyOrSignerCertPair instead [-Wdeprecated-declarations]
+   72 |       const std::vector<IdentityKeyCertPair>& identity_key_cert_pairs);
+      |                         ^~~~~~~~~~~~~~~~~~~
+external/grpc+/include/grpcpp/security/tls_certificate_provider.h:49:5: note: declared here
+   49 |     IdentityKeyCertPair {
+      |     ^~~~~~~~~~~~~~~~~~~
+external/grpc+/include/grpcpp/security/tls_certificate_provider.h:78:25: warning: 'IdentityKeyCertPair' is deprecated: Use IdentityKeyOrSignerCertPair instead [-Wdeprecated-declarations]
+   78 |       const std::vector<IdentityKeyCertPair>& identity_key_cert_pairs)
+      |                         ^~~~~~~~~~~~~~~~~~~
+external/grpc+/include/grpcpp/security/tls_certificate_provider.h:49:5: note: declared here
+   49 |     IdentityKeyCertPair {
+      |     ^~~~~~~~~~~~~~~~~~~
+external/grpc+/include/grpcpp/security/tls_certificate_provider.h:179:19: warning: 'IdentityKeyCertPair' is deprecated: Use IdentityKeyOrSignerCertPair instead [-Wdeprecated-declarations]
+  179 |       std::vector<IdentityKeyCertPair> identity_key_cert_pairs);
+      |                   ^~~~~~~~~~~~~~~~~~~
+external/grpc+/include/grpcpp/security/tls_certificate_provider.h:49:5: note: declared here
+   49 |     IdentityKeyCertPair {
+      |     ^~~~~~~~~~~~~~~~~~~
+external/grpc+/include/grpcpp/security/tls_credentials_options.h: In constructor 'grpc::experimental::TlsServerCredentialsOptions::TlsServerCredentialsOptions(std::shared_ptr<grpc::experimental::CertificateProviderInterface>)':
+external/grpc+/include/grpcpp/security/tls_credentials_options.h:209:29: warning: 'void grpc::experimental::TlsCredentialsOptions::set_certificate_provider(std::shared_ptr<grpc::experimental::CertificateProviderInterface>)' is deprecated: Use set_root_certificate_provider() or set_identity_certificate_provider() instead. [-Wdeprecated-declarations]
+  209 |     set_certificate_provider(certificate_provider);
+      |     ~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~
+external/grpc+/include/grpcpp/security/tls_credentials_options.h:58:8: note: declared here
+   58 |   void set_certificate_provider(
+      |        ^~~~~~~~~~~~~~~~~~~~~~~~
+[2,206 / 2,221] Compiling src/core/lib/channel/promise_based_filter.cc; 3s processwrapper-sandbox ... (4 actions running)
+[2,207 / 2,221] Compiling src/core/lib/channel/promise_based_filter.cc; 5s processwrapper-sandbox ... (4 actions running)
+[2,209 / 2,221] Compiling src/core/lib/channel/promise_based_filter.cc; 6s processwrapper-sandbox ... (4 actions running)
+[2,210 / 2,221] Compiling src/core/lib/channel/promise_based_filter.cc; 7s processwrapper-sandbox ... (4 actions running)
+[2,211 / 2,221] Compiling src/core/lib/channel/promise_based_filter.cc; 8s processwrapper-sandbox ... (4 actions running)
+[2,212 / 2,221] Compiling src/core/lib/channel/promise_based_filter.cc; 10s processwrapper-sandbox ... (4 actions, 3 running)
+[2,213 / 2,221] Compiling src/core/lib/surface/lame_client.cc; 5s processwrapper-sandbox ... (4 actions running)
+[2,214 / 2,221] Compiling src/core/lib/surface/filter_stack_call.cc; 7s processwrapper-sandbox ... (4 actions, 3 running)
+[2,217 / 2,221] Compiling src/core/lib/surface/call_utils.cc; 1s processwrapper-sandbox ... (4 actions running)
+[2,218 / 2,221] Compiling src/core/lib/surface/call_utils.cc; 4s processwrapper-sandbox ... (3 actions running)
+INFO: Found 6 targets...
+INFO: Elapsed time: 722.592s, Critical Path: 75.68s
+INFO: 2221 processes: 806 internal, 1415 processwrapper-sandbox.
+INFO: Build completed successfully, 2221 total actions
