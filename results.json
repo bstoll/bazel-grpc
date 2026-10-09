@@ -270,6 +270,16 @@
     "log_file": "logs/bazel-7.7.1-grpc-1.84.0-proto-36.2-rulesgo-0.64.1-rulescc-0.2.26.log"
   },
   {
+    "bazel_version": "7.7.1",
+    "grpc_version": "1.84.0",
+    "proto_version": "36.2",
+    "rules_go_version": "0.64.2",
+    "rules_cc_version": "0.2.26",
+    "success": false,
+    "date": "2026-10-09",
+    "log_file": "logs/bazel-7.7.1-grpc-1.84.0-proto-36.2-rulesgo-0.64.2-rulescc-0.2.26.log"
+  },
+  {
     "bazel_version": "8.6.0",
     "grpc_version": "1.76.0.bcr.1",
     "proto_version": "33.1",
@@ -558,6 +568,16 @@
     "success": true,
     "date": "2026-10-06",
     "log_file": "logs/bazel-8.8.1-grpc-1.84.0-proto-36.2-rulesgo-0.64.1-rulescc-0.2.26.log"
+  },
+  {
+    "bazel_version": "8.8.1",
+    "grpc_version": "1.84.0",
+    "proto_version": "36.2",
+    "rules_go_version": "0.64.2",
+    "rules_cc_version": "0.2.26",
+    "success": true,
+    "date": "2026-10-09",
+    "log_file": "logs/bazel-8.8.1-grpc-1.84.0-proto-36.2-rulesgo-0.64.2-rulescc-0.2.26.log"
   },
   {
     "bazel_version": "9.0.1",
@@ -878,5 +898,15 @@
     "success": true,
     "date": "2026-10-08",
     "log_file": "logs/bazel-9.3.0-grpc-1.84.0-proto-36.2-rulesgo-0.64.1-rulescc-0.2.26.log"
+  },
+  {
+    "bazel_version": "9.3.0",
+    "grpc_version": "1.84.0",
+    "proto_version": "36.2",
+    "rules_go_version": "0.64.2",
+    "rules_cc_version": "0.2.26",
+    "success": true,
+    "date": "2026-10-09",
+    "log_file": "logs/bazel-9.3.0-grpc-1.84.0-proto-36.2-rulesgo-0.64.2-rulescc-0.2.26.log"
   }
 ]
